@@ -38,16 +38,19 @@ app.delete('/note/:index', (req, res) => {
 app.patch('/note/:index', (req, res) => {
 
     const index = req.params.index
+    
     const description = req.body.description
-    const title = req.body.title
+    // const title = req.body.title
+
     notes[index].description = description
-    notes[index].title = title
+    // notes[index].title = title
+
     res.status(200).send({
         message: 'note update successfully',
         note: notes,
-        note: description
+        note: description,
+        // note: title
     })
-
 })
 
 module.exports = app
