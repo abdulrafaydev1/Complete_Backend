@@ -1,0 +1,4 @@
+Rest API mathots "HTTP" 
+
+GET => Server se data lana hon fatch karna ho to use karte hai
+POST => Server per data bejna ho to use karte hai 
