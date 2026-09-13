@@ -12,7 +12,6 @@ const notes = []
 
 app.post('/note', (req, res) => {
     notes.push(req.body)
-    
     res.status(201).send({
         message: 'note created successfully',
         note: notes
@@ -20,12 +19,10 @@ app.post('/note', (req, res) => {
 })
 
 app.get('/note', (req, res) => {
-
     res.status(200).send({
         message: 'This is All notes you created',
         notes: notes
     })
-
 })
 
 
