@@ -1,6 +1,0 @@
-Rest API mathots "HTTP" 
-
-GET => Server se data lana hon fatch karna ho to use karte hai
-POST => Server per data bejna ho to use karte hai 
-PATCH => Data server per already hai or ager us data to update karna hoto ya use karte hai 
-DELETE => Server per data hai or use delete karna hoto ya use karte hai
