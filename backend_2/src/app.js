@@ -25,5 +25,14 @@ app.get('/note', (req, res) => {
     })
 })
 
+app.delete('/note/:index', (req, res) => {
+    const index = req.params.index
+    delete notes[ index ]
+    res.status(200).send({
+        message: 'note deleted successfully',
+        note: notes
+        
+    })
+})
 
 module.exports = app
