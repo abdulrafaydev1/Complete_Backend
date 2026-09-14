@@ -4,7 +4,7 @@ const mongoConnect = async () => {
 
     try {
 
-        await mongoose.connect('mongodb+srv://ar2927748_db_user:3nriYgTz83u27DGJ@cluster0.kwosfac.mongodb.net');
+        await mongoose.connect('mongodb+srv://ar2927748_db_user:3nriYgTz83u27DGJ@cluster0.kwosfac.mongodb.net/Complete-backend');
         console.log("mongodb Connected");
 
     } catch (error) {
