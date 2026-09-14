@@ -1,5 +1,17 @@
 const express = require('express');
-const app = express()
 const notemodel = require('./models/note.model')
+
+const app = express()
+app.use(express.json())
+
+app.post('/notes', async (req, res) => {
+
+    const data = req.body //* req.body ma ayega ek object or object ma hoga ek tite or ek description
+    await notemodel.create({
+        title: data.title,
+        description: data.description
+    })
+
+})
 
 module.exports = app
