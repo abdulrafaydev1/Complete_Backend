@@ -12,14 +12,14 @@ app.post('/create-post', upload.single('image'), async (req, res) => {
 
     const result = await uploadFile(req.file.buffer)
 
-    const post = postModel.create({
+    const posts = postModel.create({
         image: result.url,
         caption: req.body.caption
     })
 
     res.status(201).json({
         message: 'post created',
-        post
+        posts
     })
  
 })
