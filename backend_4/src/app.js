@@ -12,6 +12,7 @@ app.post('/notes', async (req, res) => {
         description: data.description
     })
 
+    
     res.status(201).send({
         message: 'note created'
     })
