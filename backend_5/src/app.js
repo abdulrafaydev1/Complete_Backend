@@ -17,7 +17,7 @@ app.post('/notes', async (req, res) => {
 
 app.get('/notes', async (req, res) => {
      const notes = await noteModel.find({
-        title: "note_2"
+        title: "note_3"
      })
 
     res.status(200).json({
