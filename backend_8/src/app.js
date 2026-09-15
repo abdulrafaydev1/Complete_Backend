@@ -14,9 +14,9 @@ app.post('/create-post', upload.single('image'), async (req, res) => {
     const result = await uploadFile(req.file.buffer)
     console.log(result)
 
-    res.status(200).send({
-        mesage: 'Nice chal raha hai'
-    })
+    // res.status(200).send({
+    //     mesage: 'Nice chal raha hai'
+    // })
     
 })
 
