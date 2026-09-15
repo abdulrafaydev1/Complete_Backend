@@ -5,10 +5,12 @@ const imageKit = new ImageKit({
 })
 
 const uploadFile = async (buffer) => {
-    const post =  imageKit.file.upload({
+       const result = await imageKit.files.upload({
         file: buffer.toString('base64'),
         fileName: "image.jpg"
     })
+
+    return result;
 }
 
 module.exports = uploadFile
