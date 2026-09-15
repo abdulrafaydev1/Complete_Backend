@@ -15,12 +15,12 @@ app.post('/notes', async (req, res) => {
     })
 })
 
-app.get('/notes', (req, res) => {
-    const data = req.body
+app.get('/notes', async (req, res) => {
+     const notes = await noteModel.find()
 
     res.status(200).json({
-        message: 'This is all notes',
-        Allnote: data
+        message: 'This is All notes you created',
+        note: notes
     })
 })
 
