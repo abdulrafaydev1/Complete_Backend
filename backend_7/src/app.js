@@ -24,16 +24,22 @@ app.get('/notes', async (req, res) => {
 
 app.delete('/notes/:id', async (req, res) => {
     const id = req.params.id
-
-    const description = req.body.description
-
-   await noteModel.findOneAndDelete({ 
+    await noteModel.findOneAndDelete({
         _id: id,
-        description: description  
     })
-
     res.status(200).send({
         message: 'note deleted'
+    })
+})
+
+app.patch('/notes/:id', async (req, res) => {
+    const id = req.params.body
+    const description = req.body.description
+
+    await noteModel.findOneAndUpdate({
+        _id: id
+    }, {
+        description: description
     })
 })
 
