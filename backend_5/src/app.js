@@ -19,12 +19,13 @@ app.get('/notes', async (req, res) => {
      const notes = await noteModel.find({
         title: "note_3"
      })
-
     res.status(200).json({
         message: 'This is All notes you created',
         note: notes
     })
 })
+
+co
 
 
 module.exports = app
