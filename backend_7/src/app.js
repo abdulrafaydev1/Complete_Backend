@@ -3,9 +3,9 @@ const app = express()
 app.use(express.json())
 const noteModel = require('./models/note.model')
 
-app.post('/notes', (req, res) => {
+app.post('/notes', async (req, res) => {
     const data = req.body
-    noteModel.create({
+    await noteModel.create({
         title: data.title,
         description: data.description
     })
@@ -14,8 +14,12 @@ app.post('/notes', (req, res) => {
     })
 })
 
-app.get('/notes', (req, res) => {
-    
+app.get('/notes', async (req, res) => {
+    const notes = await noteModel.find()
+    res.status(200).send({
+        message: 'notes fatched',
+        notes: notes
+    })
 })
 
 module.exports = app
