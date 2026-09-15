@@ -36,10 +36,10 @@ app.patch('/notes/:id', async (req, res) => {
     const id = req.params.body
     const description = req.body.description
 
-    await noteModel.findOneAndUpdate({
-        _id: id
-    }, {
-        description: description
+    await noteModel.findOneAndUpdate({ _id: id }, { description: description })
+
+    res.status(200).send({
+        message: 'note updated'
     })
 })
 
