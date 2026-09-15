@@ -20,4 +20,13 @@ app.post('/create-post', upload.single('image'), async (req, res) => {
     }) 
 })
 
+app.get('/posts', (req, res) => {
+    const posts = postModel.find()
+
+    res.status(200).json({
+        message: 'this is All post you created',
+        posts
+    })
+})
+
 module.exports = app
