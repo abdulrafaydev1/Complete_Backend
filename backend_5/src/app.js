@@ -25,7 +25,9 @@ app.get('/notes', async (req, res) => {
     })
 })
 
-co
+app.delete('/notes/:id', (req, res) => {
+    const id = req.params.id
+})
 
 
 module.exports = app
