@@ -25,8 +25,8 @@ app.post('/create-post', upload.fields([
 
     try {
 
-        const postImageFile = req.files?.postImage?.[0];
         const profileImageFile = req.files?.profileImage?.[0];
+        const postImageFile = req.files?.postImage?.[0];
 
         if (!postImageFile || !profileImageFile) {
             return res.status(400).json({
@@ -42,24 +42,26 @@ app.post('/create-post', upload.fields([
             profileImageFile.buffer
         );
 
+        const posts = await postModel.create({
+
+            profileImage: profileImageResult.url,
+            postImage: postImageResult.url,
+            caption: req.body.caption
+
+        })
+
+        res.status(201).json({
+            message: 'post created',
+            posts
+        })
+
     } catch (error) {
-
+        console.error("Create post error:", error);
+        res.status(500).json({
+            message: "Something went wrong",
+            error: error.message,
+        });
     }
-
-    const result = await uploadFile(req.file.buffer)
-
-    const posts = await postModel.create({
-
-        profileImage: result.url,
-        postImage: result.url,
-        caption: req.body.caption
-
-    })
-
-    res.status(201).json({
-        message: 'post created',
-        posts
-    })
 
 })
 
