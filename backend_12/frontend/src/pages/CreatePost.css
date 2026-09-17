@@ -1,0 +1,207 @@
+ 
+/* =========================================
+   Create Post Page
+========================================= */
+
+.create-post-page {
+    min-height: 100vh;
+    width: 100%;
+    background: #f5f7fb;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   Create Post Form
+========================================= */
+
+.create-post-form {
+    width: 100%;
+    max-width: 520px;
+
+    background: #ffffff;
+
+    padding: 35px;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   Heading
+========================================= */
+
+.create-post-form h1 {
+    margin: 0 0 30px;
+
+    text-align: center;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    color: #111827;
+}
+
+
+/* =========================================
+   Input Group
+========================================= */
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+
+    margin-bottom: 22px;
+}
+
+
+/* =========================================
+   Labels
+========================================= */
+
+.input-group label {
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #374151;
+}
+
+
+/* =========================================
+   File Input
+========================================= */
+
+.input-group input[type="file"] {
+    width: 100%;
+
+    padding: 14px;
+
+    font-size: 14px;
+
+    color: #6b7280;
+
+    background: #f9fafb;
+
+    border: 2px dashed #d1d5db;
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    transition: 0.25s ease;
+}
+
+.input-group input[type="file"]:hover {
+    border-color: #6366f1;
+    background: #f5f5ff;
+}
+
+
+/* =========================================
+   Text Input
+========================================= */
+
+.input-group input[type="text"] {
+    width: 100%;
+    height: 50px;
+
+    padding: 0 15px;
+
+    font-size: 14px;
+
+    color: #111827;
+
+    background: #ffffff;
+
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+
+    outline: none;
+
+    box-sizing: border-box;
+
+    transition: 0.25s ease;
+}
+
+.input-group input[type="text"]::placeholder {
+    color: #9ca3af;
+}
+
+.input-group input[type="text"]:focus {
+    border-color: #6366f1;
+
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.12);
+}
+
+
+/* =========================================
+   Submit Button
+========================================= */
+
+.submit-button {
+    width: 100%;
+    height: 50px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #4f46e5;
+    color: #ffffff;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.25s ease;
+}
+
+.submit-button:hover {
+    background: #4338ca;
+
+    transform: translateY(-1px);
+
+    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.25);
+}
+
+.submit-button:active {
+    transform: translateY(0);
+}
+
+
+/* =========================================
+   Mobile Responsive
+========================================= */
+
+@media (max-width: 600px) {
+
+    .create-post-page {
+        padding: 30px 15px;
+    }
+
+    .create-post-form {
+        padding: 25px 20px;
+
+        border-radius: 14px;
+    }
+
+    .create-post-form h1 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+}
+ 
