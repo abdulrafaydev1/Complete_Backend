@@ -13,9 +13,7 @@ const CreatePost = () => {
 
         axios.post('http://localhost:3013/create-post' , formData)
         .then((res) => {
-
-            // alert('post created')
-            // e.target.reset()
+ 
 
             console.log(res)
             
