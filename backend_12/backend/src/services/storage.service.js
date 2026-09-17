@@ -5,10 +5,12 @@ const imagekit = new ImageKit({
 })
 
 const uploadFile = async (buffer) => {
-    const result = await imagekit.file.upload({
+    const result = await imagekit.files.upload({
         file: buffer.toString('base64'),
         fileName: 'image.jgp'
     })
+
+    return result
 }
 
 module.exports = uploadFile
