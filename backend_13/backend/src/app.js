@@ -25,8 +25,8 @@ app.post('/create-post', upload.fields([
 
     try {
 
-        const profileImageFile = req.files?.profileImage?.[0];
-        const postImageFile = req.files?.postImage?.[0];
+        const profileImageFile = req?.files?.profileImage?.[0];
+        const postImageFile = req?.files?.postImage?.[0];
 
         if (!postImageFile || !profileImageFile) {
             return res.status(400).json({
