@@ -7,7 +7,7 @@ const CreatePost = () => {
 
     const hancdleSubmit = async (e) =>{
 
-        e.pervenDefult()
+        e.preventDefault()
 
         const formData = new formData(e.target)
 
@@ -22,6 +22,7 @@ const CreatePost = () => {
         })
 
         .catch((err)=>{
+            console.log(err)
             alert('koi masla hai post sahi se create karo')
 
         })
@@ -31,7 +32,7 @@ const CreatePost = () => {
     
     return (
         <div className="create-post-page">
-            <form onSubmit={hancdleSubmit()} className="create-post-form" >
+            <form onSubmit={hancdleSubmit} className="create-post-form" >
 
                 <h1>Create Post</h1>
 
