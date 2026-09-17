@@ -1,4 +1,5 @@
- import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import axios from 'axios'
 
 const Feed = () => {
     const [posts, setPosts] = useState([
@@ -9,6 +10,12 @@ const Feed = () => {
             caption: "beautifull scenery",
         },
     ]);
+
+    useEffect(()=> {
+
+        axios.get()
+        
+    }, [])
 
     return (
         <div>
