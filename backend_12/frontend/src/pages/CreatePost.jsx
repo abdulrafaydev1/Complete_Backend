@@ -1,11 +1,37 @@
- 
-import React from "react";
+ import React from "react";
 import "./CreatePost.css";
+import axios from 'axios'
 
 const CreatePost = () => {
+
+
+    const hancdleSubmit = async (e) =>{
+
+        e.pervenDefult()
+
+        const formData = new formData(e.target)
+
+        axios.post('http://localhost:3013/create-post' , formData)
+        .then((res) => {
+
+            // alert('post created')
+            // e.target.reset()
+
+            console.log(res)
+            
+        })
+
+        .catch((err)=>{
+            alert('koi masla hai post sahi se create karo')
+
+        })
+        
+    }
+    
+    
     return (
         <div className="create-post-page">
-            <form className="create-post-form">
+            <form onSubmit={hancdleSubmit()} className="create-post-form" >
 
                 <h1>Create Post</h1>
 
