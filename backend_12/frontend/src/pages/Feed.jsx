@@ -13,7 +13,11 @@ const Feed = () => {
 
     useEffect(()=> {
 
-        axios.get()
+        axios.get('http://localhost:3013/posts')
+        .then((res) => {
+            console.log(res.data)
+            setPosts(res.data.posts)
+        })
         
     }, [])
 
