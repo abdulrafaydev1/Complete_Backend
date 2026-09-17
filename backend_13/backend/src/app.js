@@ -46,7 +46,9 @@ app.post('/create-post', upload.fields([
 
             profileImage: profileImageResult.url,
             postImage: postImageResult.url,
-            caption: req.body.caption
+            caption: req.body.caption,
+            likes: req.body.likes,
+            comments: req.body.comments
 
         })
 
