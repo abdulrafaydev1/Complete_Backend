@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+html{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.create-post-section {
+  width: 100%;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 35px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+/* Heading */
+.create-post-section h1 {
+  margin: 0 0 30px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+}
+
+/* Form */
+.create-post-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* All Inputs */
+.create-post-section input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+/* File Input */
+.create-post-section input[type="file"] {
+  padding: 14px;
+  background: #f9fafb;
+  border: 2px dashed #d1d5db;
+  border-radius: 10px;
+  color: #6b7280;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.create-post-section input[type="file"]:hover {
+  border-color: #6366f1;
+  background: #f5f5ff;
+}
+
+/* Caption Input */
+.create-post-section input[type="text"] {
+  height: 50px;
+  padding: 0 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  outline: none;
+  color: #111827;
+  background: #ffffff;
+  transition: all 0.25s ease;
+}
+
+.create-post-section input[type="text"]::placeholder {
+  color: #9ca3af;
+}
+
+.create-post-section input[type="text"]:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.12);
+}
+
+/* Submit Button */
+.create-post-section button {
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background: #4f46e5;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.create-post-section button:hover {
+  background: #4338ca;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(79, 70, 229, 0.25);
+}
+
+.create-post-section button:active {
+  transform: translateY(0);
+}
+
+/* ================================ Responsive ================================ */
+@media (max-width: 650px) {
+  .create-post-section {
+    width: calc(100% - 30px);
+    margin: 30px auto;
+    padding: 25px 20px;
+  }
+
+  .create-post-section h1 {
+    font-size: 24px;
+  }
+}
+
+/* ================================
+   Feed Page
+================================ */
+
+.feed-page {
+    min-height: 100vh;
+    background: #f5f5f5;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.feed-container {
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+/* ================================
+   Post Card
+================================ */
+
+.post-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 28px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* ================================
+   Post Header
+================================ */
+
+.post-header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile-image {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.user-info span {
+    display: block;
+    margin-top: 3px;
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+.more-button {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #6b7280;
+    cursor: pointer;
+}
+
+/* ================================
+   Post Image
+================================ */
+
+.post-image-container {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: #f3f4f6;
+    overflow: hidden;
+}
+
+.post-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* ================================
+   Actions
+================================ */
+
+.post-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px 6px;
+}
+
+.left-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.action-button {
+    border: none;
+    background: transparent;
+    padding: 0;
+    font-size: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.action-button:hover {
+    transform: scale(1.12);
+}
+
+/* ================================
+   Likes
+================================ */
+
+.likes {
+    padding: 4px 16px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+}
+
+/* ================================
+   Caption
+================================ */
+
+.caption {
+    padding: 8px 16px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #374151;
+}
+
+.caption strong {
+    color: #111827;
+    margin-right: 5px;
+}
+
+/* ================================
+   Comments
+================================ */
+
+.comments-button {
+    border: none;
+    background: transparent;
+    padding: 10px 16px 5px;
+    font-size: 13px;
+    color: #9ca3af;
+    cursor: pointer;
+}
+
+/* ================================
+   Add Comment
+================================ */
+
+.add-comment {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px 16px;
+}
+
+.add-comment input {
+    flex: 1;
+    height: 38px;
+    border: none;
+    outline: none;
+    background: #f3f4f6;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+.add-comment button {
+    border: none;
+    background: transparent;
+    color: #4f46e5;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ================================
+   Responsive
+================================ */
+
+@media (max-width: 650px) {
+
+    .feed-page {
+        padding: 20px 0;
+    }
+
+    .post-card {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        margin-bottom: 15px;
+    }
+
+    .feed-container {
+        max-width: 100%;
+    }
+
+    .post-image-container {
+        aspect-ratio: 1 / 1;
+    }
+}
