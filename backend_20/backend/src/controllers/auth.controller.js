@@ -18,15 +18,19 @@ const registerUser = async () => {
         })
     }
 
-    const userCreate = userModel.create({
+    const userCreate = await userModel.create({
         username, email, password, role
     })
 
     const token = jwt.sign({
-        id: user._id,
+        id: userCreate._id,
+        role: userCreate.role
     }, process.env.JWT_SERECT)
 
     res.cookie('token', token)
+    
+
+
 }
 
 module.exports = {registerUser}
