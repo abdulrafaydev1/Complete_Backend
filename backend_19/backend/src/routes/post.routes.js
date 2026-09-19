@@ -7,7 +7,7 @@ router.post('/create', (req, res) => {
 
     const token = req.cookies.token
 
-    if(!token){
+    if (!token) {
         return res.status(401).json({
             message: "Unauthorized"
         })
@@ -17,8 +17,16 @@ router.post('/create', (req, res) => {
         message: 'post created'
     })
 
-    jwt.verify(token, process.env.JWT_SERECT)
-    
+
+    try {
+        jwt.verify(token, process.env.JWT_SERECT)
+    } catch (error) {
+        return res.status(401).json({
+            message: ''
+        })
+    }
+
+
 })
 
 module.exports = router
