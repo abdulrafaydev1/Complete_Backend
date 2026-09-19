@@ -28,8 +28,11 @@ const registerUser = async () => {
     }, process.env.JWT_SERECT)
 
     res.cookie('token', token)
-    
 
+    res.status(201).json({
+        message: 'user register',
+        userCreate
+    })
 
 }
 
