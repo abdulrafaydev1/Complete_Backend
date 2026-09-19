@@ -42,4 +42,21 @@ const registerUser = async (req, res) => {
 
 }
 
+const userSignUp = async (req, res) => {
+
+    const { username, email, password } = req.body
+
+    const findUser = userModel.findOne({
+        $or: [
+            { username },
+            { email }
+        ]
+    })
+
+    if(!findUser) {
+        return 
+    }
+    
+}
+
 module.exports = {registerUser}
