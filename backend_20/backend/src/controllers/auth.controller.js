@@ -46,16 +46,19 @@ const loginUser = async (req, res) => {
 
     const { username, email, password } = req.body
 
-    const findUser = userModel.findOne({
+    const user = userModel.findOne({
         $or: [
             { username },
             { email }
         ]
     })
 
-    if(!findUser) {
-        return res.status()
+    if(!user){
+        return res.status(401).json({
+            message: 'invalid creedentials'
+        })
     }
+    
     
 }
 
