@@ -5,7 +5,7 @@ const router = express.Router()
 
 router.post('/create', (req, res) => {
 
-    const token = req.cookies.token
+    const token = req.cookies.token;
 
     if (!token) {
         return res.status(401).json({
@@ -13,20 +13,18 @@ router.post('/create', (req, res) => {
         })
     }
 
-    res.send({
-        message: 'post created'
-    })
 
 
     try {
         jwt.verify(token, process.env.JWT_SERECT)
     } catch (error) {
         return res.status(401).json({
-            message: ''
+            message: 'token sahi nahi hai'
         })
     }
 
 
+    res.send({ message: 'post created' })
 })
 
 module.exports = router
