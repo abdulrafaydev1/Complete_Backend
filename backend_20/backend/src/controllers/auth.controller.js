@@ -11,8 +11,9 @@ const registerUser = async () => {
         ]
     })
 
-    userModel
-
-
-    
+    if(checkUserExsits){
+        return res.status(409).json({
+            message: 'user already exist'
+        })
+    }    
 }
