@@ -12,16 +12,7 @@ const registerUser = async (req, res) => {
             username, email, password
         })
 
-        const isUserAlreadyExists = userModel.findOne({
-            email
-        })
-
-        if(isUserAlreadyExists){
-            return res.status(409).json({
-                message: 'user already hai',
- 
-            })
-        }
+        
 
         const token = jwt.sign({
             id: user._id
