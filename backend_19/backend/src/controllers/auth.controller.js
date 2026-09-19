@@ -9,17 +9,7 @@ const registerUser = async (req, res) => {
     const user = await userModel.create({
         username, email, password
     })
-
-    const userCheck = userModel.findOne({
-        email
-    })
-
-    if(userCheck){
-        return res.status(409).json({
-            message: 'user already exist'
-        })
-    }
-
+  
     const token = jwt.sign({
         id: user._id
     }, process.env.JWT_SERECT)
