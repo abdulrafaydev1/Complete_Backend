@@ -25,4 +25,8 @@ const registerUser = async () => {
     const token = jwt.sign({
         id: user._id,
     }, process.env.JWT_SERECT)
+
+    res.cookie('token', token)
 }
+
+module.exports = {registerUser}
