@@ -12,16 +12,15 @@ const registerUser = async (req, res) => {
             username, email, password
         })
 
-        res.status(201).json({
-            message: 'register successful',
-            user
-        })
-
         const token = jwt.sign({
             id: user._id
         }, process.env.JWT_SERECT)
 
-
+        res.status(201).json({
+            message: 'register successful',
+            user,
+            token
+        })
 
 
 
