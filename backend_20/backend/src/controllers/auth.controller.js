@@ -7,7 +7,7 @@ const registerUser = async (req, res) => {
     const { username, email, password, role = 'user' } = req.body
 
     const checkUserExsits = await userModel.findOne({
-        $or: [  
+        $or: [
             { username },
             { email }
         ]
@@ -46,20 +46,28 @@ const loginUser = async (req, res) => {
 
     const { username, email, password } = req.body
 
-    const user = userModel.findOne({
+    const user = await userModel.findOne({
         $or: [
             { username },
             { email }
         ]
     })
 
-    if(!user){
+    if (!user) {
         return res.status(401).json({
             message: 'invalid creedentials'
         })
     }
-    
+
+    const isPasswordValid = await bcrypt.compare(password, user.password)
+
+    if (!isPasswordValid) {
+        return res.status(401).json({
+            message: 'invalid creedentials'
+        })
+    }
+}
     
 }
 
-module.exports = {registerUser, loginUser}
+module.exports = { registerUser, loginUser }
