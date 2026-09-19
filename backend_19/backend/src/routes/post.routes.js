@@ -17,7 +17,7 @@ router.post('/create', (req, res) => {
         message: 'post created'
     })
 
-    jwt.verify(token)
+    jwt.verify(token, process.env.JWT_SERECT)
     
 })
 
