@@ -4,7 +4,8 @@ const userSchema = new mongoose.Schema({
     username: String,
     email: {
         type: String,
-        unique: true
+        required: true,
+        unique: true  // Automatically creates a unique index on 'email'
     },
     password: String
 })

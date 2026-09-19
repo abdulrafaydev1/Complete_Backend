@@ -3,42 +3,26 @@ const jwt = require('jsonwebtoken')
 
 const registerUser = async (req, res) => {
 
-    try {
 
-        const { username, email, password } = req.body
+    const { username, email, password } = req.body;
 
+    const user = await userModel.create({
+        username, email, password
+    })
 
-        const user = await userModel.create({
-            username, email, password
-        })
+    const token = jwt.sign({
+        id: user._id
+    }, process.env.JWT_SERECT)
 
-        
+    res.cookie('token', token)
 
-        const token = jwt.sign({
-            id: user._id
-        }, process.env.JWT_SERECT)
+    res.status(201).json({
+        message: 'register successful',
+        user
 
-        res.cookie(
-            'token', token 
-        )
-
-        res.status(201).json({
-            message: 'register successful',
-            user,
-
-        })
+    })
 
 
-
-    } catch (error) {
-        console.log(error)
-
-        res.status(400).json({
-            message: "koi masla hai",
-            error
-        })
-
-    }
 
 
 }
