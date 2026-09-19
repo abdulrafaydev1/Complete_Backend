@@ -6,35 +6,38 @@ const registerUser = async (req, res) => {
 
     const { username, email, password, role = 'user' } = req.body
 
-    // const checkUserExsits = userModel.findOne({
-    //     $or: [
-    //         { username },
-    //         { email }
-    //     ]
-    // })
+    const checkUserExsits = await userModel.findOne({
+        $or: [  
+            { username },
+            { email }
+        ]
+    })
 
-    // if (checkUserExsits) {
-    //     return res.status(409).json({
-    //         message: 'user already exist'
-    //     })
-    // }
+    if (checkUserExsits) {
+        return res.status(409).json({
+            message: 'user already exist'
+        })
+    }
 
-    const passHast = await bcrypt.hash(password, 10)
+    const hast = await bcrypt.hash(password, 10)
 
-    const userCreate = await userModel.create({
-        username, email, password: passHast, role
+    const user = await userModel.create({
+        username,
+        email,
+        password: hast,
+        role
     })
 
     const token = jwt.sign({
-        id: userCreate._id,
-        role: userCreate.role
+        id: user._id,
+        role: user.role
     }, process.env.JWT_SERECT)
 
     res.cookie('token', token)
 
     res.status(201).json({
         message: 'user register',
-        userCreate
+        user
     })
 
 }
