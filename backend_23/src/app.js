@@ -28,6 +28,7 @@ res.status(201).json({
 app.get('/fatch-users', (req, res) => {
 
     res.setHeader('myName', "rafay")
+ 
     console.log(req.headers)
 
     res.status(200).json({
