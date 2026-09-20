@@ -3,6 +3,9 @@ const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
 
 const registerUser = async (req, res) => {
+
+    res.setHeader('X-myName', "rafay")
+
     const { username, email, password, role = 'user' } = req.body
     const checkUserAlreadyExists = await userModel.findOne({
         $or: [
