@@ -5,6 +5,7 @@ app.use(express.json())
 
 const users = []
 
+
 app.post('/create-user', (req, res) => {
 
     const { username, email, password } = req.body
