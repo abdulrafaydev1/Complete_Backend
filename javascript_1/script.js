@@ -35,10 +35,42 @@ age = 25;
 console.log(age);
  
 
-var x = 10;
+ 
+
+let x = 10;
 
 {
-    var x = 20;
+    let x = 20;
+    console.log(x);
 }
 
 console.log(x);
+
+const user = {
+    name: "Rafay"
+};
+
+user.name = "rehman";
+
+console.log(user.name);
+
+
+console.log(a);
+
+var a = 10;
+
+var a = 10;
+
+function test() {
+    console.log(a);
+    var a = 20;
+}
+
+test();
+
+let c = 10;
+
+{
+    console.log(c);
+    let c = 20;
+}
