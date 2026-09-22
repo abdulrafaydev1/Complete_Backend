@@ -1,8 +1,8 @@
-var x = 10;
+var a = 10;
 
-function test() {
-    console.log(x);
-    var x = 20;
+{
+    var a = 20;
+    console.log(a);
 }
 
-test();
+console.log(a);
