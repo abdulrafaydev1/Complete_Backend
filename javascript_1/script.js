@@ -68,9 +68,18 @@ function test() {
 
 test();
 
-let c = 10;
 
-{
-    console.log(c);
-    let c = 20;
+
+function test() {
+    var x = 2;
+
+    if (true) {
+        var x = 3;
+        console.log(x);
+    }
+
+    console.log(x);
 }
+
+test();
+ 
