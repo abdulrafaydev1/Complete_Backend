@@ -1,1 +1,1 @@
-console.log("15" + 15);
+console.log(12/6);
