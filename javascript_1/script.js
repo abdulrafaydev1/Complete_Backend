@@ -1,3 +1,5 @@
-let bigNumber = 123456789012345678901234567890n;
-
-console.log(typeof bigNumber);
+console.log(typeof "Hello");
+console.log(typeof 500);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
