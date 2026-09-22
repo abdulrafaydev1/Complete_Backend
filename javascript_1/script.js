@@ -1,14 +1,17 @@
-var x = 5;
+var x = 100;
 
-function demo() {
-    var x = 10;
+function test() {
+    console.log(x);
 
-    if (true) {
-        var x = 20;
+    var x = 200;
+
+    {
+        let x = 300;
+        console.log(x);
     }
 
     console.log(x);
 }
 
-demo();
+test();
 console.log(x);
