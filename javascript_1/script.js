@@ -33,3 +33,12 @@ console.log(name);
 let age = 20;
 age = 25;
 console.log(age);
+ 
+
+var x = 10;
+
+{
+    var x = 20;
+}
+
+console.log(x);
