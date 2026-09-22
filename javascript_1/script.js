@@ -1,6 +1,2 @@
-let value = "0";
-
-console.log(Boolean(value)); // true 
-console.log(Number(value)); // Number
-console.log(typeof value); // number
-console.log(typeof Number(value)); 
+console.log(5 == "5"); // true
+console.log(5 === "5"); // false
