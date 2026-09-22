@@ -1,2 +1,7 @@
-const price = 500;
-console.log(price);
+var x = 10;
+
+{
+    var x = 20;
+}
+
+console.log(x);
