@@ -1,7 +1,5 @@
-let value = "0";
-let value2 = ""
-let value3 = 0;
+let a = "10";
+let b = 5;
 
-console.log(Boolean(value));
-console.log(Boolean(value2));
-console.log(Boolean(value3));
+console.log(a + b);
+console.log(typeof (a + b));
