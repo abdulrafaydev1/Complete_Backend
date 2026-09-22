@@ -1,5 +1,4 @@
-let a = "10";
-let b = 5;
+let value = "100abc";
 
-console.log(a + b);
-console.log(typeof (a + b));
+console.log(Number(value));
+console.log(typeof Number(value));
