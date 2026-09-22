@@ -1,2 +1,6 @@
-console.log(5 == "5"); // true
-console.log(5 === "5"); // false
+for (let i = 1; i < 101; i++) {
+    console.log(i);
+    if (i === 30) {
+        break;
+    }
+}
