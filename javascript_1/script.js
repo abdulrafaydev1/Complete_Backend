@@ -1,7 +1,3 @@
-var x = 10;
+console.log(a);
 
-{
-    var x = 20;
-}
-
-console.log(x);
+let a = 10;
