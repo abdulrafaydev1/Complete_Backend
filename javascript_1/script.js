@@ -1,8 +1,14 @@
-var a = 10;
+var x = 5;
 
-{
-    var a = 20;
-    console.log(a);
+function demo() {
+    var x = 10;
+
+    if (true) {
+        var x = 20;
+    }
+
+    console.log(x);
 }
 
-console.log(a);
+demo();
+console.log(x);
