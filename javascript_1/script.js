@@ -1,7 +1,7 @@
 var x = 100;
 
 function test() {
-    console.log(x);
+    console.log(x, "this is");
 
     var x = 200;
 
@@ -13,5 +13,5 @@ function test() {
     console.log(x);
 }
 
-test();
 console.log(x);
+test();
