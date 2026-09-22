@@ -1,3 +1,3 @@
-let result = false;
+let bigNumber = 123456789012345678901234567890n;
 
-console.log(typeof result);
+console.log(typeof bigNumber);
