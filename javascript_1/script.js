@@ -1,7 +1,16 @@
-let name = "Rafay";
+var x = 100;
 
-{
-    console.log(name);
+function outer() {
+    var x = 200;
 
-    let name = "Ali";
+    function inner() {
+        var x = 300;
+        console.log(x);
+    }
+
+    inner();
+    console.log(x);
 }
+
+outer();
+console.log(x);
