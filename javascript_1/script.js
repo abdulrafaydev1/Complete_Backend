@@ -1,5 +1,4 @@
-const multiple = () => {
-    console.log('hello')
+function sayHi(name = "rafay"){
+    console.log("kya hall hai", name)
 }
-
-multiple()
+sayHi()
