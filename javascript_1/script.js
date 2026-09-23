@@ -1,2 +1,2 @@
-const country = 'pakistan'
-console.log(country);
+let city;
+console.log(city);
