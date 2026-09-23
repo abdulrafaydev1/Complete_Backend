@@ -1,9 +1,8 @@
-func()
+abcd()
 
 
 
 
-const func = function() {
-    console.log('hello')
+const abcd = () {
+    console.log('rafay')
 }
-
