@@ -1,8 +1,3 @@
-let name = "Rafay";
+console.log(a);
 
-{
-    let name = "Abdul";
-    console.log(name);
-}
-
-console.log(name);
+const a = 10;
