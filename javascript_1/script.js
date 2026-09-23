@@ -1,4 +1,8 @@
-let name = "Ali";
-let name = "Ahmed";
+let name = "Rafay";
+
+{
+    let name = "Abdul";
+    console.log(name);
+}
 
 console.log(name);
