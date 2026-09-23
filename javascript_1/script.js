@@ -1,4 +1,8 @@
-function sayHi(name = "rafay"){
-    console.log("kya hall hai", name)
+function score(...val) {
+    let totle = val
+    return function(){
+        totle = totle + 1;
+    }
 }
-sayHi()
+
+console.log(score(10, 30, 63, 60)())
