@@ -1,4 +1,1 @@
-let score = 50;
-score = 80;
-
-console.log(score);
+let a = 12; // d and i
