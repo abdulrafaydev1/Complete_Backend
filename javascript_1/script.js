@@ -1,1 +1,6 @@
-let a = 12; // d and i
+var
+let
+const
+
+const a = 12;
+a = 20
