@@ -1,8 +1,3 @@
-var a = 10;
+let result = false;
 
-{
-    var a = 20;
-    console.log(a);
-}
-
-console.log(a);
+console.log(typeof result);
