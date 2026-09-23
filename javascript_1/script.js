@@ -1,4 +1,9 @@
-let x = 10;
+function abc() {
+     console.log('rafay');
+     console.log('rafay');
+     console.log('rafay');
+     console.log('rafay');
+     console.log('rafay');
+}
 
-console.log( +x );
-console.log( -x );
+ 
