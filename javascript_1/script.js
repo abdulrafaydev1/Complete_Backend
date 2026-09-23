@@ -1,5 +1,4 @@
-let x = 6;
+let x = 10;
 
-x *= 4;
-
-console.log(x);
+console.log( +x );
+console.log( -x );
