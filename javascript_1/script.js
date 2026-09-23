@@ -1,6 +1,8 @@
-let arr = [1, 2, 3, 4, 5]
-const newarr = arr.reduce(function (val) {
-     
+
+let arr =  [ 10, 30, 72, 38, 82, 81, 10, 9 ,8, 16 ]
+const newarr = arr.filter(function(val) {
+    if(val > 10) return val
+ 
 })
 
 console.log(newarr);
