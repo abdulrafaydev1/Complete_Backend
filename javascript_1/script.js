@@ -1,8 +1,11 @@
-function score(...val) {
-    let totle = val
-    return function(){
-        totle = totle + 1;
-    }
+function score(...score) {
+    let totle = score
+    totle.forEach(function(){
+        totle = totle = score
+    }) 
+
 }
 
-console.log(score(10, 30, 63, 60)())
+const value = score(12,12,12,12)
+ 
+console.log(value)
