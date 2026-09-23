@@ -1,8 +1,8 @@
-let name = "Rafay";
+var a = 10;
 
 {
-    let name = "Ali";
-    console.log(name);
+    var a = 20;
+    console.log(a);
 }
 
-console.log(name);
+console.log(a);
