@@ -1,2 +1,2 @@
-let name = 'abdul rafay'
-console.log(name);
+let age = 20;
+console.log(age);
