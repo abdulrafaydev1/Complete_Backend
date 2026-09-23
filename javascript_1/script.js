@@ -10,3 +10,7 @@ const user = {
     }
 }
 
+// console.log(user.myName)
+
+const { myName } = user['myName']
+console.log(myName);
