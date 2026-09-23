@@ -1,9 +1,5 @@
-function abc() {
-     console.log('rafay');
-     console.log('rafay');
-     console.log('rafay');
-     console.log('rafay');
-     console.log('rafay');
+const func = function() {
+    console.log('123');
 }
 
- 
+func()
