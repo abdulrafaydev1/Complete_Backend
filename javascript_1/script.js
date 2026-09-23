@@ -1,6 +1,11 @@
-function add(v1, v2) {
-    console.log(v1, v2)
-}
+function abcd(val) {
+    val()
+    return function () {
+        console.log('heyheyheyhey');
 
-add(1, 2)
- 
+    }
+}
+abcd(function () {
+    console.log('rafay');
+
+})()
