@@ -1,7 +1,9 @@
-function abcd(val) {
-    val()
+let totle = 0;
+console.log("this is totle", totle)
+function addToTotle(num){
+   totle += num;
+
+   return totle
 }
 
-abcd(function () {
-    console.log(123)
-})
+console.log(addToTotle(2))
