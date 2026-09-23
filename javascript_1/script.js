@@ -1,11 +1,7 @@
-function getScore(...score) {
-    let totle = 0;
-
-    score.forEach(function(value) {
-        totle = totle + value
-    })
-
-    return totle
+function abcd(val) {
+    val()
 }
 
-console.log(getScore(12,12,12,12))
+abcd(function () {
+    console.log(123)
+})
