@@ -1,9 +1,7 @@
-let totle = 0;
-console.log("this is totle", totle)
-function addToTotle(num){
-   totle += num;
+function discoundCalculater(discound) {
+    return function () {
 
-   return totle
+    }
 }
 
-console.log(addToTotle(2))
+discoundCalculater(10)
