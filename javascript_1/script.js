@@ -1,5 +1,9 @@
-let a = "10";
-let b = 5;
+let a = 0;
+let b = "0";
+let c = null;
+let d = undefined;
 
-console.log(a + b); // 55
-console.log(typeof (a + b)); // String
+console.log(Boolean(a)); // false
+console.log(Boolean(b)); // true
+console.log(Boolean(c)); // false
+console.log(Boolean(d)); // false
