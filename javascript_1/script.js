@@ -1,15 +1,16 @@
-var a = 10;
 
 function test() {
-    var a = 20;
-
+    let rafay = 50;
+    
     if (true) {
-        var a = 30;
-        console.log(a);
+        console.log("this is rafay", rafay);
+
+        let b = 30;
+        console.log(b);
     }
 
-    console.log(a);
+    console.log(rafay);
+
 }
 
 test();
-console.log(a);
