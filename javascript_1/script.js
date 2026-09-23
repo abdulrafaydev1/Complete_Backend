@@ -1,2 +1,2 @@
-let age = 20;
-console.log(age);
+const country = 'pakistan'
+console.log(country);
