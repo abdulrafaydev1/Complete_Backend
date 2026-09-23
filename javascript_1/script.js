@@ -1,4 +1,5 @@
-let a = 20;
-let b = 5;
+let x = 6;
 
-console.log(a / b);
+x *= 4;
+
+console.log(x);
