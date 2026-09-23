@@ -1,3 +1,9 @@
-(function () {
-console.log('hello')
-})()
+func()
+
+
+
+
+const func = function() {
+    console.log('hello')
+}
+
