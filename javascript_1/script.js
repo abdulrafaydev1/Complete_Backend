@@ -1,5 +1,5 @@
 const user = {
-    name: 'rafay',
+    myName: 'rafay',
     address: {
         city: 'karachi',
         accoundNumber: '5257563',
@@ -10,6 +10,3 @@ const user = {
     }
 }
 
-const { city , accoundNumber } = user.address
-
-console.log(accoundNumber)
