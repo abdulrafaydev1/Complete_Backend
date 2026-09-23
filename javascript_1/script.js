@@ -1,16 +1,7 @@
+let name = "Rafay";
 
-function test() {
-    let rafay = 50;
-    
-    if (true) {
-        console.log("this is rafay", rafay);
+{
+    console.log(name);
 
-        let b = 30;
-        console.log(b);
-    }
-
-    console.log(rafay);
-
+    let name = "Ali";
 }
-
-test();
