@@ -1,5 +1,6 @@
-const func = function() {
-    console.log('123');
+function add(v1, v2) {
+    console.log(v1, v2)
 }
 
-func()
+add(1, 2)
+ 
