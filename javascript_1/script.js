@@ -1,6 +1,4 @@
-var
-let
-const
+let name = "Ali";
+let name = "Ahmed";
 
-const a = 12;
-a = 20
+console.log(name);
