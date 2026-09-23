@@ -1,11 +1,11 @@
-function score(...score) {
-    let totle = score
-    totle.forEach(function(){
-        totle = totle = score
+function getScore(...score) {
+    
+    score.forEach(function(){
+        let totle = score
+        
     }) 
 
 }
 
-const value = score(12,12,12,12)
- 
-console.log(value)
+ console.log(getScore(10,10,10,10));
+  
