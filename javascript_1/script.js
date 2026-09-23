@@ -1,6 +1,8 @@
-const user = {
-    "frisr-name":"rafay"
+const obj = {
+    score: 12
 }
 
-const { ['firstName ']} = user
-console.log(firstName);
+const a = obj
+obj.score = 15
+console.log(obj);
+console.log(a)
