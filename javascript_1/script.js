@@ -275,7 +275,5 @@ Ans, let aur const hoist hote hain, lekin unki declaration se pehle unka variabl
 
 Q40, Temporal Dead Zone kya hoti hai?
 Ans, is ka pata nahi
-
-
 */
 
