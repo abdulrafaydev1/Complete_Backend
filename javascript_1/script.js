@@ -283,14 +283,14 @@ Ans, is ka pata nahi
 
 
 */
-let marks = 75;
+let distance = 7;
 
-if (marks >= 80) {
-    console.log("Grade A");
-} else if (marks >= 70) {
-    console.log("Grade B");
-} else if (marks >= 60) {
-    console.log("Grade C");
+if (distance <= 2) {
+    console.log("Delivery charge: Rs 50");
+} else if (distance <= 5) {
+    console.log("Delivery charge: Rs 100");
+} else if (distance <= 7) {
+    console.log("Delivery charge: Rs 150");
 } else {
-    console.log("Fail");
+    console.log("Delivery unavailable");
 }
