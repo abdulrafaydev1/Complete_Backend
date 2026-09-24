@@ -138,6 +138,14 @@ And, sir javascript ma variables declare karne ke liye 3 keyword use hota hai ph
 Q6, var, let, aur const ka basic difference explain karo.
 Ans, sir ( var ) Variable ka keyword hai or ( var ) ES6 ma ayaa tha or ( var ) ko haam redeclare bhi kar sate hai or reinitialize ya resassign bhi kar sate hai or, ( let ) variables ka keyword hai or ( let ) ko redeclare nahi kar sate likin reinitialize ya resassign kar sate hai or, ( const ) variables ka keyword hai usko na hi redeclare kar sate hai or na hi reinitialize ya resassign kar sate hai
 
+Q7, let name = "Rafay";
+    console.log(name);
+Ans, sir is code ma ek variables hai or us variables ki value hai ( rafay ) or ya ( rafay ) store ho gaya hai ek variables ma jis ka naam hai ( name ) to console ma haam dekh raha hai naam ko to hama console ma ya value miligi ( "rafay" )
+
+Q8, let age;
+    console.log(age);
+Ans, sir is code ma ho raha hai ek variables declare kara hai or us variables ko koi value nahi dii to ager kisi variables ma value nahi hote to javascript us variables hon undifiend value daa data hai
+
 
 */
 
