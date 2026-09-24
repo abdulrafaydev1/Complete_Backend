@@ -1,3 +1,4 @@
+//!-----------!data types + data system------------//
 /* 
    console.log(typeof null);            -> object
    console.log(typeof NaN);             -> number
@@ -115,7 +116,3 @@
    console.log(typeof NaN);       -> number
 */
 
-
-
-
- 
