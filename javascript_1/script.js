@@ -192,6 +192,9 @@ Q19, Kya JavaScript variable names case-sensitive hote hain?
      console.log(Age);
 Ans, G sir JavaScript variable ky names case-sensitive hote hain?
 
+Q20, let aur const block-scoped hone ka kya matlab hai?
+Ans, G sir ( let or const ) ya keywords block-scoped hota hai block-scoped ka matlab hai ky kisi bhi {} ky ander
+
 
 */
 
