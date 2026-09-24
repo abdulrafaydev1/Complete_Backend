@@ -32,21 +32,24 @@
    console.log(typeof +x); 
    console.log(+"hello"); 
    console.log(typeof +"hello");
+
+   let a = "10";
+   let b = 5;
+   let c = true;
+   let d = null;
+   let e = undefined;
+   
+   console.log(a + b);         -> 555
+   console.log(a - b);         -> 5
+   console.log(b+ c);          -> 6
+   console.log(b - c);         -> 4
+   console.log(d + b);         -> 5
+   console.log(e + b);         -> 5
 */
 
 
-let a = "10";
-let b = 5;
-let c = true;
-let d = null;
-let e = undefined;
 
-console.log(a + b); // 555
-console.log(a - b); // 5
-console.log(b+ c); // 6
-console.log(b - c); // 4
-console.log(d + b); // 5
-console.log(e + b); // 5
+
  
 
 
