@@ -240,6 +240,9 @@ Ans, Variable shadowing tab hoti hai jab inner scope mein same naam ka variable 
 Q30, Example ke saath explain karo ke inner scope outer variable ko shadow kaise karta hai.
 Ans, Jab inner scope mein same naam ka variable declare hota hai, to inner scope ke andar outer variable temporarily hide ho jata hai. Isay variable shadowing kehte hain.
 
+Q31, Hoisting kya hoti hai?
+Ans, sir Hoisting ya hoti hai ager variable bad na bana or us variable ko pahlee access karna ki kooshi kare to usa Hoisting kahte hai or Hoisting tino variable keywords ma hote hai 
+
 
 */
 
