@@ -223,6 +223,9 @@ Q26, Difference explain karo:
      let x = undefined;
 Ans, sir phale wala ma hama variable ko koi value nahi dii javascript ka variable ko undefined daga or second wala variable ko hama khud undefined value dii hai
 
+Q27, Kya variable declare karna aur variable ko value dena same operation hai?
+Ans, nahi
+
 
 */
 
