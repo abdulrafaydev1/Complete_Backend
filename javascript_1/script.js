@@ -283,14 +283,10 @@ Ans, is ka pata nahi
 
 
 */
-let distance = 7;
+let name = "";
 
-if (distance <= 2) {
-    console.log("Delivery charge: Rs 50");
-} else if (distance <= 5) {
-    console.log("Delivery charge: Rs 100");
-} else if (distance <= 7) {
-    console.log("Delivery charge: Rs 150");
+if (name) {
+    console.log("Name exists");
 } else {
-    console.log("Delivery unavailable");
+   console.log('fail');
 }
