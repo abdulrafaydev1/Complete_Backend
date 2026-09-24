@@ -33,8 +33,9 @@
 
 // // is function ka output hoga 30 20 10
 
-let a = 20;
+const a = 20;
 function abcd() {
+    a++
     console.log(a);
 }
 
