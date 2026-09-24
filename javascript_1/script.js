@@ -218,6 +218,11 @@ Q25, Kya const declaration ke waqt value dena mandatory hai?
      const x;
 Ans, G mandatory hai
 
-Q26, 
+Q26, Difference explain karo:
+     let x;
+     let x = undefined;
+Ans, sir phale wala ma hama variable ko koi value nahi dii javascript ka variable ko undefined daga or second wala variable ko hama khud undefined value dii hai
+
+
 */
 
