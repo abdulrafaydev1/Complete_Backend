@@ -183,7 +183,14 @@ Ans, nahi sir
 Q18, Kya ye valid hai?
      let $price = 500;
      let _count = 10;
-Ans, g sir ya valid hai
+Ans, G sir ya valid hai
+
+Q19, Kya JavaScript variable names case-sensitive hote hain?
+     let age = 20;
+     let Age = 30;
+     console.log(age);
+     console.log(Age);
+Ans, G sir JavaScript variable ky names case-sensitive hote hain?
 
 
 */
