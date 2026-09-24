@@ -1,9 +1,7 @@
-let a = [];
-let b = [];
+let a = { value: 10 };
+let b = a;
 
-console.log(a == b);
-console.log(a === b);
+b.value = 50;
 
-console.log(typeof ([] == []));
-console.log(typeof ([] == []));
-
+console.log(a.value);
+console.log(b.value);
