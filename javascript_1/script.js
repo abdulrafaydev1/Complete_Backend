@@ -283,8 +283,8 @@ Ans, is ka pata nahi
 
 
 */
-let age = 20;
+let temperature = 35;
 
-if (age >= 18) {
-   console.log("You are an adult");
+if (temperature > 30) {
+    console.log("It is hot");
 }
