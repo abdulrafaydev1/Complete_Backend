@@ -79,50 +79,43 @@
    console.log(a === b);          -> false
    console.log(f == false);       -> false
    console.log(f === false);      -> false 
+
+   let a = "10";
+   let b = 10;
+   let c = true;
+   let d = false;
+   let e = null;
+   let f = undefined;
+   let g = [];
+   let h = {};
+   console.log(a + b);            -> 1010
+   console.log(a - b);            -> 0
+   console.log(b + c);            -> 11
+   console.log(b - c);            -> 9
+   console.log(e + b);            -> 10
+   console.log(f + b);            -> NaN
+   console.log(g + b);            -> 11
+   console.log(h + b);            -> 11
+   console.log(a == b);           -> true
+   console.log(a === b);          -> false
+   console.log(e == f);           -> true
+   console.log(e === f);          -> false
+   console.log(g == false);       -> true 
+   console.log(g === false);      -> false 
+   console.log(Boolean(a));       -> true
+   console.log(Boolean(b));       -> true
+   console.log(Boolean(e));       -> false
+   console.log(Boolean(f));       -> false
+   console.log(Boolean(g));       -> true
+   console.log(Boolean(h));       -> true
+   console.log(typeof e);         -> object
+   console.log(typeof f);         -> undefined
+   console.log(typeof g);         -> object
+   console.log(typeof h);         -> object
+   console.log(typeof NaN);       -> number
 */
 
-let a = "10";
-let b = 10;
-let c = true;
-let d = false;
-let e = null;
-let f = undefined;
-let g = [];
-let h = {};
 
-console.log(a + b); // 1010
-console.log(a - b); // 0
-
-console.log(b + c); // 11
-console.log(b - c); // 9
-
-console.log(e + b); // 10
-console.log(f + b); // NaN
-
-console.log("g + b", g + b); // 11
-console.log("h + b", h + b); // 11
-
-console.log(a == b); // true
-console.log(a === b); // false
-
-console.log(e == f); // true
-console.log(e === f); // false
-
-console.log(g == false); // true 
-console.log(g === false); // false 
-
-console.log(Boolean(a)); // true
-console.log(Boolean(b)); // true
-console.log(Boolean(e)); // false
-console.log(Boolean(f)); // false
-console.log(Boolean(g)); // true
-console.log(Boolean(h)); // true
-
-console.log(typeof e); // object
-console.log(typeof f); // undefined
-console.log(typeof g); // object
-console.log(typeof h); // object
-console.log(typeof NaN); // number
 
 
  
