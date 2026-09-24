@@ -45,25 +45,48 @@
    console.log(b - c);         -> 4
    console.log(d + b);         -> 5
    console.log(e + b);         -> 5
+
+   let a = 10;
+   let b = a;
+   let x = { value: 10 };
+   let y = x;
+   b = 20;
+   y.value = 50;
+   console.log(a);             -> 10
+   console.log(b);             -> 20
+   console.log(x.value);       -> 50
+   console.log(y.value);       -> 50
+
+   let a = "5";
+   let b = 5;
+   let c = true;
+   let d = null;
+   let e = undefined;
+   let f = []; // 1
+   let g = {};
+   console.log(typeof a);         -> String
+   console.log(typeof b);         -> Number
+   console.log(typeof c);         -> boolean
+   console.log(typeof d);         -> object
+   console.log(typeof e);         -> undefined
+   console.log(typeof f);         -> object
+   console.log(typeof g);         -> object
+   console.log(a + b);            -> 55
+   console.log(b + c);            -> 6
+   console.log(d + b);            -> 5
+   console.log(e + b);            -> NaN
+   console.log(a == b);           -> true
+   console.log(a === b);          -> false
+   console.log(f == false);       -> false
+   console.log(f === false);      -> false 
 */
-
-let a = 10;
-let b = a;
-
-let x = { value: 10 };
-let y = x;
-
-b = 20;
-y.value = 50;
-
-console.log(a); // 20
-console.log(b); // 20
-
-console.log(x.value); // 10
-console.log(y.value); // 50
-
-
  
+
+
+
+
+
+
 
 
 
