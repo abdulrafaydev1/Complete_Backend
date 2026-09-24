@@ -154,6 +154,8 @@ Q10, Kya let variable ko baad mein reassign kar sakte ho?
 Ans, g sir ( let ) keyword se bana variables to bad na value reassign kar sate hai
 
 Q11, Kya const variable ko baad mein reassign kar sakte ho?
-Ans, 
+Ans, nahi yar ( const ) keyword se bana variable to bad ma value nahi reassign kar sate
+
+
 */
 
