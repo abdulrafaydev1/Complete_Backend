@@ -1,13 +1,14 @@
-let x = 100;
+var x = 10;
 
-function outer() {
-    let x = 200;
+{
+    let x = 20;
 
-    function inner() {
+    {
+        var x = 30;
         console.log(x);
     }
 
-    inner();
+    console.log(x);
 }
 
-outer();
+console.log(x);
