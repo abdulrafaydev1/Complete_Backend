@@ -1,26 +1,21 @@
-let a = 100;
+const user = {
+    name: "Rafay",
+    age: 20
+};
 
-function outer() {
-    let a = 200;
+function test() {
+    console.log(user.name);
 
-    function middle() {
-        // console.log(a); // error
+    const user = {
+        name: "Ali",
+        age: 25
+    };
 
-        let a = 300;
-
-        function inner() {
-            console.log("is console ma ayega 300", a);
-        }
-
-        inner();
-
-        console.log("is console ma ayega 300", a); // 
-    }
-
-    middle();
-
-    console.log("is console ma ayega 200", a); // 200
+    console.log(user.name);
+    console.log(user.age);
 }
 
-outer();
-console.log("is console ma ayega 100", a); // 100
+test();
+
+console.log(user.name);
+console.log(user.age);
