@@ -1,11 +1,11 @@
 //!-----------!data types + data system------------//
-/* 
+/*
    console.log(typeof null);            -> object
    console.log(typeof NaN);             -> number
    console.log(typeof Infinity);        -> number
    console.log(typeof []);              -> object
    console.log(typeof {});              -> object
-   console.log(typeof function () {});  -> function  
+   console.log(typeof function () {});  -> function
 
    console.log("10" == 10);    -> true
    console.log("10" === 10);   -> false
@@ -29,9 +29,9 @@
    console.log(a % b);         -> 1
 
    let x = "10";
-   console.log(+x); 
-   console.log(typeof +x); 
-   console.log(+"hello"); 
+   console.log(+x);
+   console.log(typeof +x);
+   console.log(+"hello");
    console.log(typeof +"hello");
 
    let a = "10";
@@ -39,7 +39,7 @@
    let c = true;
    let d = null;
    let e = undefined;
-   
+
    console.log(a + b);         -> 555
    console.log(a - b);         -> 5
    console.log(b+ c);          -> 6
@@ -79,7 +79,7 @@
    console.log(a == b);           -> true
    console.log(a === b);          -> false
    console.log(f == false);       -> false
-   console.log(f === false);      -> false 
+   console.log(f === false);      -> false
 
    let a = "10";
    let b = 10;
@@ -101,8 +101,8 @@
    console.log(a === b);          -> false
    console.log(e == f);           -> true
    console.log(e === f);          -> false
-   console.log(g == false);       -> true 
-   console.log(g === false);      -> false 
+   console.log(g == false);       -> true
+   console.log(g === false);      -> false
    console.log(Boolean(a));       -> true
    console.log(Boolean(b));       -> true
    console.log(Boolean(e));       -> false
@@ -126,6 +126,11 @@ Ans, sir javascript ma variable ek box ya container ki kara hota hai jis ma koi 
 Q2, Variable declaration kya hoti hai?
 Ans, sir Variable declaration ya hota hai jub haam Variable ka keyword likha or Variable ka naam likh for example ya ( let name; ) is ko haam bolte hai Variable declaration
 
+Q3, Variable initialization kya hoti hai?
+Ans, sir Variable initialization hota hai Variable ky naam ky bad = or Variable value isko bota hai Variable initialization
+
+Q4, Variable declaration aur assignment mein kya difference hai?
+Ans, sir Variable declaration aur assignment or ma ya difference ky hai jub jaam kisi Variable ka keyword likhte hai or Variable ka naam likhte hai to isko bolte hai Variable declaration or jub Variable declaration hona ky bad = laga kar value likhte hai to isko bolta hai 
 
 */
 
