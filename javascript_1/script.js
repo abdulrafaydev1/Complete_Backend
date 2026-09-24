@@ -195,6 +195,15 @@ Ans, G sir JavaScript variable ky names case-sensitive hote hain?
 Q20, let aur const block-scoped hone ka kya matlab hai?
 Ans, G sir ( let or const ) ya keywords block-scoped hota hai block-scoped ka matlab hai ky kisi bhi {} ky ander
 
+Q21, var function-scoped hone ka kya matlab hai?
+     let x = 10;
+     {
+     let x = 20;
+     console.log(x);
+     }
+     console.log(x);
+Ans, G sir ( var ) keyword functional-scoped hota hai functional-scoped ka matlab hai ky ager ( var ) keyword se bana wuwa variable hai to is ky {} bahar bhi access ho sata hai 
+
 
 */
 
