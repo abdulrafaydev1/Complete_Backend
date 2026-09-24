@@ -273,6 +273,9 @@ ans, sir var ma hoisting hote hai or var variable declaration part uper chala ja
 Q39, let aur const ko hoisted kehne ke bawajood unko declaration se pehle access kyun nahi kar sakte?
 Ans, let aur const hoist hote hain, lekin unki declaration se pehle unka variable Temporal Dead Zone (TDZ) mein hota hai.
 
+Q40, Temporal Dead Zone kya hoti hai?
+Ans, is ka pata nahi
+
 
 */
 
