@@ -170,6 +170,9 @@ Q14, var x = 10;
      console.log(x);
 Ans, sir is code ma ya ho raha hai ky ( var ) keyword se bana wuwa variable redeclare kar raha hai to is code ma koi error nahi ayeega kyuu ky ( var ) keyword ma haam value ko redeclare or reassign kar sate hai 
 
+Q15, Ek variable ka naam "user-name" rakhne ki koshish karo. Kya ye valid identifier hai? Kyun?
+Ans, sahi hai variable ma naam ma koi javascript ki biuldIn data type nahi rak sate
+
 
 */
 
