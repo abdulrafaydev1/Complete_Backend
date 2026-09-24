@@ -132,5 +132,10 @@ Ans, sir Variable initialization hota hai Variable ky naam ky bad = or Variable 
 Q4, Variable declaration aur assignment mein kya difference hai?
 Ans, sir Variable declaration aur assignment or ma ya difference ky hai jub jaam kisi Variable ka keyword likhte hai or Variable ka naam likhte hai to isko bolte hai Variable declaration or jub Variable declaration hona ky bad = laga kar value likhte hai to isko bolta hai 
 
+Q5, JavaScript mein variables declare karne ke liye kaun se 3 keywords use hote hain?
+And, sir javascript ma variables declare karne ke liye 3 keyword use hota hai phalaa keyword hai ( var ) or second keyword hai ( let ) or third keyword hai ( const ) ya 3 keywords variables declare karte hai
+
+Q6, var, let, aur const ka basic difference explain karo.
+Ans, sir ( var ) Variable ka keyword hai or ( var ) ES6 ma ayaa tha or ( var ) ko haam redeclare bhi kar sate hai or reinitialize bhi kar sate hai
 */
 
