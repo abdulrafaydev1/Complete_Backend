@@ -279,7 +279,12 @@ Ans, is ka pata nahi
 
 //!------data type + data system interview questions------//
 
-let a = 20;
-let b = 3;
+/*
 
-console.log(a / b);
+
+*/
+let age = 20;
+
+if (age >= 18) {
+   console.log("You are an adult");
+}
