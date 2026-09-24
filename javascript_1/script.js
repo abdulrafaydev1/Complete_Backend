@@ -1,34 +1,20 @@
-var a = 10;
+var x = 10;
 
 function outer() {
-    console.log("is console ma ayega undefiend",a); // yar is console ma ayega undefiend
+    console.log(x); // error
 
-    var a = 20;
+    let x = 20;
 
     {
-        let a = 30;
-
-        console.log("is console ma ayega 30",a); // is console ma ayega 30
-
-        function inner() {
-            // console.log(a); // error
-
-            let a = 40;
-
-            console.log('is console ma ayega 40',a); // is console ma ayega 40
-        }
-
-        inner();
-
-        console.log("is console ma ayega 30",a);
+        var x = 30;
+        console.log(x);
     }
 
-    console.log("is console ma ayeega 20", a); // is console ma ayega ( 20 )
+    console.log(x);
 }
 
 outer();
 
-console.log("is console ma ayeega 10",a); // is console ma ayega ya number ( 10 )
-
+console.log(x); // is console ma ayega 10
 
  
