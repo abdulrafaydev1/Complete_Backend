@@ -120,6 +120,12 @@
 //!------Variables & Declarations interview questions------//
 
 /*
+Q1, JavaScript mein variable kya hota hai?
+Ans, sir javascript ma variable ek box ya container ki kara hota hai jis ma koi bhi data type ya koi bhi value store kar sate hai 
+
+Q2, Variable declaration kya hoti hai?
+Ans, sir Variable declaration ya hota hai jub haam Variable ka keyword likha or Variable ka naam likh for example ya ( let name; ) is ko haam bolte hai Variable declaration
+
 
 */
 
