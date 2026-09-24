@@ -277,3 +277,10 @@ Q40, Temporal Dead Zone kya hoti hai?
 Ans, is ka pata nahi
 */
 
+//!------data type + data system interview questions------//
+
+/*
+
+
+
+*/
