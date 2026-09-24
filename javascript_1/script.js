@@ -226,6 +226,14 @@ Ans, sir phale wala ma hama variable ko koi value nahi dii javascript ka variabl
 Q27, Kya variable declare karna aur variable ko value dena same operation hai?
 Ans, nahi
 
+Q28, let x = 10;
+     {
+     let x = 20;
+     }
+     console.log(x);
+     Outer x ki value kya hogi?
+Ans, 10
+
 
 */
 
