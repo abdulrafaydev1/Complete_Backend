@@ -1,21 +1,40 @@
-const user = {
-    name: "Rafay",
-    age: 20
-};
+var x = 1;
 
-function test() {
-    console.log(user.name);
+function level1() {
+    console.log(x);
 
-    const user = {
-        name: "Ali",
-        age: 25
-    };
+    let x = 2;
 
-    console.log(user.name);
-    console.log(user.age);
+    function level2() {
+        console.log(x);
+
+        var x = 3;
+
+        {
+            let x = 4;
+
+            console.log(x);
+
+            function level3() {
+                console.log(x);
+
+                let x = 5;
+
+                console.log(x);
+            }
+
+            level3();
+
+            console.log(x);
+        }
+
+        console.log(x);
+    }
+
+    level2();
+
+    console.log(x);
 }
 
-test();
-
-console.log(user.name);
-console.log(user.age);
+level1();
+console.log(x);
