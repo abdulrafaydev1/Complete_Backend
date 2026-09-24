@@ -1,3 +1,2 @@
-let value = 0;
-
-console.log(Boolean(value)); // false
+console.log(true + 1); // 2
+console.log(false + 1); // 1
