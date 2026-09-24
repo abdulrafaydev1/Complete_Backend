@@ -80,7 +80,49 @@
    console.log(f == false);       -> false
    console.log(f === false);      -> false 
 */
- 
+
+let a = "10";
+let b = 10;
+let c = true;
+let d = false;
+let e = null;
+let f = undefined;
+let g = [];
+let h = {};
+
+console.log(a + b);
+console.log(a - b);
+
+console.log(b + c);
+console.log(b - c);
+
+console.log(e + b);
+console.log(f + b);
+
+console.log(g + b);
+console.log(h + b);
+
+console.log(a == b);
+console.log(a === b);
+
+console.log(e == f);
+console.log(e === f);
+
+console.log(g == false);
+console.log(g === false);
+
+console.log(Boolean(a));
+console.log(Boolean(b));
+console.log(Boolean(e));
+console.log(Boolean(f));
+console.log(Boolean(g));
+console.log(Boolean(h));
+
+console.log(typeof e);
+console.log(typeof f);
+console.log(typeof g);
+console.log(typeof h);
+console.log(typeof NaN);
 
 
 
