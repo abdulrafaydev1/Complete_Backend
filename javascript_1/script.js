@@ -243,6 +243,25 @@ Ans, Jab inner scope mein same naam ka variable declare hota hai, to inner scope
 Q31, Hoisting kya hoti hai?
 Ans, sir Hoisting ya hoti hai ager variable bad na bana or us variable ko pahlee access karna ki kooshi kare to usa Hoisting kahte hai or Hoisting tino variable keywords ma hote hai 
 
+Q32, Kya var hoist hota hai?
+Ans, G sir hota hai
+
+Q33, Kya let hoist hota hai?
+Ans, G sir hota hai
+
+Q34, Kya const hoist hota hai?
+Ans, G sir hota hai
+
+Q35, console.log(x);
+     var x = 10;
+     Output kya hoga?
+Ans, sir iska ouput hoga undifiend
+
+Q36, console.log(x);
+     let x = 10;
+     Output/error kya hoga?
+Ans, sir is code ma error ayeega
+
 
 */
 
