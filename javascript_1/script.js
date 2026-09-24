@@ -1,21 +1,25 @@
-var x = 1;
+let x = 10;
 
-function test() {
+function outer() {
     console.log(x);
 
-    if (true) {
-        var x = 3;
+    let x = 20;
 
-        {
-            let x = 3;
-            console.log('this is let', x);
-        }
+    function inner() {
+        console.log(x);
 
-        console.log('this is if', x);
+        let x = 30;
+
+        console.log(x);
     }
 
-    console.log("this", x);
+    inner();
+
+    console.log(x);
 }
 
-test();
-console.log(x);
+outer();
+
+console.log(x); // 
+
+ 
