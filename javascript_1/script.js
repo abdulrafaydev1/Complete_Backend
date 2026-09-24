@@ -204,6 +204,13 @@ Q21, var function-scoped hone ka kya matlab hai?
      console.log(x);
 Ans, G sir ( var ) keyword functional-scoped hota hai functional-scoped ka matlab hai ky ager ( var ) keyword se bana wuwa variable hai to is ky {} bahar bhi access ho sata hai 
 
+Q23, var x = 10;
+     {
+     var x = 20;
+     }
+     console.log(x);
+Ans, is code ka output hoga ( 20 )
+
 
 */
 
