@@ -262,6 +262,14 @@ Q36, console.log(x);
      Output/error kya hoga?
 Ans, sir is code ma error ayeega
 
+Q37, console.log(x);
+     const x = 10;
+     Output/error kya hoga?
+Ans, sir is code ma error ayeega
+
+Q38, var declaration hoisting aur initialization mein kya difference hai?
+ans, sir var ma hoisting hote hai or var variable declaration part uper chala jata hai or initialization part niche rah jata hai or ager haam variable ko koi value nahi data to javascript us variable ma undifiend value dall data hai isi liya var keyword se bana wuwa variable hoist hai likin koi error nahi data undifiend ata hai
+
 
 */
 
