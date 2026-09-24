@@ -156,6 +156,11 @@ Ans, g sir ( let ) keyword se bana variables to bad na value reassign kar sate h
 Q11, Kya const variable ko baad mein reassign kar sakte ho?
 Ans, nahi yar ( const ) keyword se bana variable to bad ma value nahi reassign kar sate
 
+Q12, var x = 10;
+     x = 20;
+     console.log(x);
+Ans, sir is code ma ya ho raha hai ky ( var ) keyword se ek variable bana hai or or ma us variable ma value to reassign kar raha hai
+
 
 */
 
