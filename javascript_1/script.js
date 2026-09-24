@@ -234,6 +234,12 @@ Q28, let x = 10;
      Outer x ki value kya hogi?
 Ans, 10
 
+Q29, Variable shadowing kya hoti hai?
+Ans, Variable shadowing tab hoti hai jab inner scope mein same naam ka variable declare kiya jaye jo outer scope ke variable ko temporarily hide kar deta hai.
+
+Q30, Example ke saath explain karo ke inner scope outer variable ko shadow kaise karta hai.
+Ans, Jab inner scope mein same naam ka variable declare hota hai, to inner scope ke andar outer variable temporarily hide ho jata hai. Isay variable shadowing kehte hain.
+
 
 */
 
