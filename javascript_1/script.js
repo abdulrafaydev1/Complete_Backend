@@ -279,7 +279,7 @@ Ans, is ka pata nahi
 
 //!------data type + data system interview questions------//
 
-let a = 10;
-let b = 5;
+let a = 20;
+let b = 3;
 
-console.log(a + b);
+console.log(a / b);
