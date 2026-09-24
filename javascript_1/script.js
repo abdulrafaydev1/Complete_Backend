@@ -211,6 +211,9 @@ Q23, var x = 10;
      console.log(x);
 Ans, is code ka output hoga ( 20 )
 
+Q24, var aur let ke block scope behavior mein difference explain karo.
+Ans, sir var block scope nahi hota likin let block scope hota hai 
+
 
 */
 
