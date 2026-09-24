@@ -215,8 +215,9 @@ Q24, var aur let ke block scope behavior mein difference explain karo.
 Ans, sir var block scope nahi hota likin let block scope hota hai 
 
 Q25, Kya const declaration ke waqt value dena mandatory hai?
+     const x;
 Ans, G mandatory hai
 
-
+Q26, 
 */
 
