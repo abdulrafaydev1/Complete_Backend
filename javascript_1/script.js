@@ -1,4 +1,9 @@
-console.log(Boolean(null)); // false
-console.log(Boolean(undefined)); // false
-console.log(Boolean([])); 
-console.log(Boolean({}));
+let a = [];
+let b = [];
+
+console.log(a == b);
+console.log(a === b);
+
+console.log(typeof ([] == []));
+console.log(typeof ([] == []));
+
