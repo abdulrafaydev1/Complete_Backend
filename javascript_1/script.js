@@ -1,14 +1,21 @@
-var x = 10;
+var x = 1;
 
-{
-    let x = 20;
+function test() {
+    console.log(x);
 
-    {
-        var x = 30;
-        console.log(x);
+    if (true) {
+        var x = 3;
+
+        {
+            let x = 3;
+            console.log('this is let', x);
+        }
+
+        console.log('this is if', x);
     }
 
-    console.log(x);
+    console.log("this", x);
 }
 
+test();
 console.log(x);
