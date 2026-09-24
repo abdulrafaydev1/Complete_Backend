@@ -176,6 +176,10 @@ Ans, sahi hai variable ma naam ma koi javascript ki biuldIn data type nahi rak s
 Q16, JavaScript mein valid variable identifier ke basic rules kya hain?
 Ans, sir javascript ky variable ky naam likhna ky kuch identifier rules hota hai jaise ky variable ky naam ma ya ya likha chaiye ( [ Letters (a-z, A-Z), or , digits (0-9), or , _ or , $ ] ) ya kuch variable ky naam likhna ky rules hai
 
+Q17, Kya variable ka naam number se start ho sakta hai?
+     let 123name = "Rafay";
+Ans, nahi sir
+
 
 */
 
