@@ -47,7 +47,20 @@
    console.log(e + b);         -> 5
 */
 
+let a = 10;
+let b = a;
 
+let x = { value: 10 };
+let y = x;
+
+b = 20;
+y.value = 50;
+
+console.log(a); // 20
+console.log(b); // 20
+
+console.log(x.value); // 10
+console.log(y.value); // 50
 
 
  
