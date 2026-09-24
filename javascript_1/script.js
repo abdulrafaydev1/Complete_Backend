@@ -146,6 +146,14 @@ Q8, let age;
     console.log(age);
 Ans, sir is code ma ho raha hai ek variables declare kara hai or us variables ko koi value nahi dii to ager kisi variables ma value nahi hote to javascript us variables hon undifiend value daa data hai
 
+Q9, const country = "Pakistan";
+    console.log(country);
+Ans, sir is code ma ek variables hai or us variables ma value store hai ( pakistan ) to console ma value miligii ( pakistan )
 
+Q10, Kya let variable ko baad mein reassign kar sakte ho?
+Ans, g sir ( let ) keyword se bana variables to bad na value reassign kar sate hai
+
+Q11, Kya const variable ko baad mein reassign kar sakte ho?
+Ans, 
 */
 
