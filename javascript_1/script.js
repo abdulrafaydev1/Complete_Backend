@@ -116,3 +116,10 @@
    console.log(typeof NaN);       -> number
 */
 
+
+//!------Variables & Declarations interview questions------//
+
+/*
+
+*/
+
