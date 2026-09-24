@@ -180,6 +180,11 @@ Q17, Kya variable ka naam number se start ho sakta hai?
      let 123name = "Rafay";
 Ans, nahi sir
 
+Q18, Kya ye valid hai?
+     let $price = 500;
+     let _count = 10;
+Ans, g sir ya valid hai
+
 
 */
 
