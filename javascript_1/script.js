@@ -173,6 +173,9 @@ Ans, sir is code ma ya ho raha hai ky ( var ) keyword se bana wuwa variable rede
 Q15, Ek variable ka naam "user-name" rakhne ki koshish karo. Kya ye valid identifier hai? Kyun?
 Ans, sahi hai variable ma naam ma koi javascript ki biuldIn data type nahi rak sate
 
+Q16, JavaScript mein valid variable identifier ke basic rules kya hain?
+Ans, sir javascript ky variable ky naam likhna ky kuch identifier rules hota hai jaise ky variable ky naam ma ya ya likha chaiye ( [ Letters (a-z, A-Z), or , digits (0-9), or , _ or , $ ] ) ya kuch variable ky naam likhna ky rules hai
+
 
 */
 
