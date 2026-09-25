@@ -391,6 +391,4 @@ let user = {
     age: 20
 };
 
-delete user.age;
-
-console.log(user);
+// Check karo ke "email" property exist karti hai ya nahi
