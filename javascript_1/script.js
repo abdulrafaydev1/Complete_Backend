@@ -280,19 +280,12 @@ Ans, is ka pata nahi
 //!------data type + data system interview questions------//
 
 /*
-let name = "";
-
-if (name) {
-    console.log("Name exists");
-} else {
-   console.log('fail');
-}
-*/
-//              1
 for (let i = 1; i <= 5; i++){
      console.log('this is product id', i);
 }
 for(let i = 5; i >= 1; i--){
      console.log(i);
-     
 }
+*/
+
+
