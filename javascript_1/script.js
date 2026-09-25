@@ -294,9 +294,7 @@ for(let i = 0; i < arr.length; i++){
      
 }
 */
-
-for (let i = 0; i < 5; i++) {
+//              5
+for (let i = 5; i > 0; i -= 5) {
     console.log(i);
 }
-
-
