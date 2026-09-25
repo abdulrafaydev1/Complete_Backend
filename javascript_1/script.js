@@ -286,12 +286,16 @@ for (let i = 1; i <= 5; i++){
 for(let i = 5; i >= 1; i--){
      console.log(i);
 }
-*/
 
 let arr = [ 'apple', 'banana', 'kivi' ];
-
+ 
 for(let i = 0; i < arr.length; i++){
      console.log(arr[i]);
      
 }
+*/
+
+
+
+
 
