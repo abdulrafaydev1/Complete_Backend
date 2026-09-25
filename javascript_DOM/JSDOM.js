@@ -1,2 +1,2 @@
-let btn = document.querySelectorAll('.buy-now')
-console.log(btn);
+let hd = document.querySelector('h1')
+hd.textContent = 'Welcome to sheryians'
