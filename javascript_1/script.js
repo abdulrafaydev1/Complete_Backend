@@ -308,10 +308,25 @@ for (let i = 1; i <= 3; i++) {
           console.log(i, j);
      }
 }
-*/
 
 for (let i = 1; i <= 3; i++) {
-    for (let j = 1; j <= 3; j++) {
-        console.log(`this is outer loop ${i} and this is inner loop ${j}`);
-    }
+
+     for (let j = 1; j <= 3; j++) {
+          console.log(`this is outer loop ${i} and this is inner loop ${j}`);
+     }
+
+}
+
+for (let j = 1; j <= 3; j++) {
+     console.log(`this is juct j value ${j}`);
+}
+
+*/
+
+
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+
+    i++;
 }
