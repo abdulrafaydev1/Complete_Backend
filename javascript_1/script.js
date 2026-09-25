@@ -333,28 +333,31 @@ for (let j = 1; j <= 3; j++) {
 // }
 
 //              8 
-for (let i = 0; i <= 10; i += 2) {
+// for (let i = 0; i <= 10; i += 2) {
  
-     for(let j = 0; j <= 3; j += 2){
-          console.log(`this is i value ${i} and this is j value ${j}`)
-     }
+//      for(let j = 0; j <= 3; j += 2){
+//           console.log(`this is i value ${i} and this is j value ${j}`)
+//      }
+// }
+
+for (let i = 0; i <= 10; i += 2) {
+    for (let j = 1; j <= 5; j++) {
+        console.log(`i = ${i}, j = ${j}`);
+    }
 }
+
 /*
 0
 0
 0
+0
+0
 2
 2
 2
-4
-4
-4
-6
-6
-6
-8
-8
-8
+2
+2
+
 
 */
 
