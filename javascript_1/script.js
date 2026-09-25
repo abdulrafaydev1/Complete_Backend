@@ -340,26 +340,7 @@ for (let j = 1; j <= 3; j++) {
 //      }
 // }
 
-for (let i = 0; i <= 10; i += 2) {
-    for (let j = 1; j <= 5; j++) {
-        console.log(`i = ${i}, j = ${j}`);
-    }
-}
 
-/*
-0
-0
-0
-0
-0
-2
-2
-2
-2
-2
-
-
-*/
 
 // for (let i = 1; i <= 3; i++) {
 
@@ -368,3 +349,24 @@ for (let i = 0; i <= 10; i += 2) {
 //      }
 
 // }
+// let colors = ["Red", "Green", "Blue", "Yellow"];
+
+// console.log(colors[3])
+
+
+// let fruits = ["Apple", "Banana", "Mango"];
+// fruits.push('Orange')
+// console.log(fruits)
+
+// let numbers = [1, 2, 3];
+
+// numbers.push(4);
+// numbers.pop();
+
+// console.log(numbers);
+
+let arr = [10, 20, 30];
+
+arr[1] = 100;
+
+console.log(arr);
