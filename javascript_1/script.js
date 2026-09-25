@@ -365,8 +365,9 @@ for (let j = 1; j <= 3; j++) {
 
 // console.log(numbers);
 
-let arr = [10, 20, 30];
+// let arr = [10, 20, 30];
 
-arr[1] = 100;
+// arr[1] = 100;
 
-console.log(arr);
+// console.log(arr);
+
