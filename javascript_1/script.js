@@ -324,18 +324,23 @@ for (let j = 1; j <= 3; j++) {
 */
 
 
-// //       0      0
-// for (let i = 0; i < 10; i += 2) {
+//       0      0
+for (let i = 0; i < 10; i += 2) {
 
-//     for (let j = 0; j < 5; j += 2) {
-//         console.log(i, j);
-//     }
+    for (let j = 0; j < 5; j += 2) {
+        console.log(i, j);
+    }
 
-// }
-
-// // ek sat 2 for loops hai  c
-
+}
 
 for (let i = 0; i <= 5; i += 2) {
      console.log(i);
-}
+}    
+
+// for (let i = 1; i <= 3; i++) {
+
+//      for (let j = 1; j <= 3; j++) {
+//           console.log(`this is outer loop ${i} and this is inner loop ${j}`);
+//      }
+
+// }
