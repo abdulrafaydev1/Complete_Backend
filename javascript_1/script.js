@@ -289,6 +289,6 @@ if (name) {
 }
 */
 
-for(let i = 0; i<=10; i++){
-     console.log('hello');
+for (let product = 1; product <= 5; product++){
+     console.log('product sahi chal raha hai');
 }
