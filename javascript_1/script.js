@@ -385,10 +385,13 @@ for (let j = 1; j <= 3; j++) {
 
 // let numbers = [10, 20, 30, 40, 50];
 
-
 let user = {
     name: "Rafay",
     age: 20
 };
 
-// Check karo ke "email" property exist karti hai ya nahi
+let property = "age";
+
+user[property] = 25;
+
+console.log(user);
