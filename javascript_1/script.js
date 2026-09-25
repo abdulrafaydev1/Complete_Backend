@@ -335,7 +335,7 @@ for (let j = 1; j <= 3; j++) {
 //              8 
 for (let i = 0; i <= 10; i += 2) {
  
-     for(let j = 0; j < 3; j++){
+     for(let j = 0; j <= 3; j += 2){
           console.log(`this is i value ${i} and this is j value ${j}`)
      }
 }
