@@ -371,9 +371,15 @@ for (let j = 1; j <= 3; j++) {
 
 // console.log(arr);
 
-let names = ["Ali", "Ahmed", "Rafay"];
+// let names = ["Ali", "Ahmed", "Rafay"];
 
-names.shift();
-names.unshift("Hamza");
+// names.shift();
+// names.unshift("Hamza");
 
-console.log(names);
+// console.log(names);
+
+let numbers = [10, 20, 30, 40, 50];
+
+for(let i = 0; i <= numbers.length; i++){
+     console.log(i)
+}
