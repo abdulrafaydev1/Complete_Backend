@@ -325,8 +325,22 @@ for (let j = 1; j <= 3; j++) {
 
 
 
-for (let i = 0; i < 5; i++) {
-    console.log(i);
 
-    i++;
+
+
+
+
+//      2      2   true         
+for(let i = 0; i <= 10; i++){
+     console.log('this is value', i);
+     i++
 }
+
+/*
+0
+2
+4
+6
+8
+10
+*/
