@@ -121,7 +121,7 @@
 
 /*
 Q1, JavaScript mein variable kya hota hai?
-Ans, sir javascript ma variable ek box ya container ki kara hota hai jis ma koi bhi data type ya koi bhi value store kar sate hai 
+Ans, sir javascript ma variable ek box ya container ki kara hota hai jis ma koi bhi data type ya koi bhi value store kar sate hai
 
 Q2, Variable declaration kya hoti hai?
 Ans, sir Variable declaration ya hota hai jub haam Variable ka keyword likha or Variable ka naam likh for example ya ( let name; ) is ko haam bolte hai Variable declaration
@@ -130,7 +130,7 @@ Q3, Variable initialization kya hoti hai?
 Ans, sir Variable initialization hota hai Variable ky naam ky bad = or Variable value isko bota hai Variable initialization
 
 Q4, Variable declaration aur assignment mein kya difference hai?
-Ans, sir Variable declaration aur assignment or ma ya difference ky hai jub jaam kisi Variable ka keyword likhte hai or Variable ka naam likhte hai to isko bolte hai Variable declaration or jub Variable declaration hona ky bad = laga kar value likhte hai to isko bolta hai 
+Ans, sir Variable declaration aur assignment or ma ya difference ky hai jub jaam kisi Variable ka keyword likhte hai or Variable ka naam likhte hai to isko bolte hai Variable declaration or jub Variable declaration hona ky bad = laga kar value likhte hai to isko bolta hai
 
 Q5, JavaScript mein variables declare karne ke liye kaun se 3 keywords use hote hain?
 And, sir javascript ma variables declare karne ke liye 3 keyword use hota hai phalaa keyword hai ( var ) or second keyword hai ( let ) or third keyword hai ( const ) ya 3 keywords variables declare karte hai
@@ -168,7 +168,7 @@ Ans, sir is keyword ma yaa ho raha hai ky ( let ) keyword se bana variable ko re
 Q14, var x = 10;
      var x = 20;
      console.log(x);
-Ans, sir is code ma ya ho raha hai ky ( var ) keyword se bana wuwa variable redeclare kar raha hai to is code ma koi error nahi ayeega kyuu ky ( var ) keyword ma haam value ko redeclare or reassign kar sate hai 
+Ans, sir is code ma ya ho raha hai ky ( var ) keyword se bana wuwa variable redeclare kar raha hai to is code ma koi error nahi ayeega kyuu ky ( var ) keyword ma haam value ko redeclare or reassign kar sate hai
 
 Q15, Ek variable ka naam "user-name" rakhne ki koshish karo. Kya ye valid identifier hai? Kyun?
 Ans, sahi hai variable ma naam ma koi javascript ki biuldIn data type nahi rak sate
@@ -202,7 +202,7 @@ Q21, var function-scoped hone ka kya matlab hai?
      console.log(x);
      }
      console.log(x);
-Ans, G sir ( var ) keyword functional-scoped hota hai functional-scoped ka matlab hai ky ager ( var ) keyword se bana wuwa variable hai to is ky {} bahar bhi access ho sata hai 
+Ans, G sir ( var ) keyword functional-scoped hota hai functional-scoped ka matlab hai ky ager ( var ) keyword se bana wuwa variable hai to is ky {} bahar bhi access ho sata hai
 
 Q23, var x = 10;
      {
@@ -212,7 +212,7 @@ Q23, var x = 10;
 Ans, is code ka output hoga ( 20 )
 
 Q24, var aur let ke block scope behavior mein difference explain karo.
-Ans, sir var block scope nahi hota likin let block scope hota hai 
+Ans, sir var block scope nahi hota likin let block scope hota hai
 
 Q25, Kya const declaration ke waqt value dena mandatory hai?
      const x;
@@ -241,7 +241,7 @@ Q30, Example ke saath explain karo ke inner scope outer variable ko shadow kaise
 Ans, Jab inner scope mein same naam ka variable declare hota hai, to inner scope ke andar outer variable temporarily hide ho jata hai. Isay variable shadowing kehte hain.
 
 Q31, Hoisting kya hoti hai?
-Ans, sir Hoisting ya hoti hai ager variable bad na bana or us variable ko pahlee access karna ki kooshi kare to usa Hoisting kahte hai or Hoisting tino variable keywords ma hote hai 
+Ans, sir Hoisting ya hoti hai ager variable bad na bana or us variable ko pahlee access karna ki kooshi kare to usa Hoisting kahte hai or Hoisting tino variable keywords ma hote hai
 
 Q32, Kya var hoist hota hai?
 Ans, G sir hota hai
@@ -280,9 +280,6 @@ Ans, is ka pata nahi
 //!------data type + data system interview questions------//
 
 /*
-
-
-*/
 let name = "";
 
 if (name) {
@@ -290,3 +287,4 @@ if (name) {
 } else {
    console.log('fail');
 }
+*/
