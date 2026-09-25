@@ -294,7 +294,11 @@ for(let i = 0; i < arr.length; i++){
      
 }
 */
-//              5
-for (let i = 5; i > 0; i -= 5) {
+//              0
+for (let i = 0; i < 5; i++) {
+    if (i === 2) {
+        continue;
+    }
+
     console.log(i);
 }
