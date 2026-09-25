@@ -1,2 +1,2 @@
-let hd = document.querySelector('h1')
+let hd = document.getElementById('hd')
 hd.textContent = 'Welcome to sheryians'
