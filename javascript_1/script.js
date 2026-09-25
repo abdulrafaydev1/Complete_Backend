@@ -324,23 +324,18 @@ for (let j = 1; j <= 3; j++) {
 */
 
 
+// //       0      0
+// for (let i = 0; i < 10; i += 2) {
+
+//     for (let j = 0; j < 5; j += 2) {
+//         console.log(i, j);
+//     }
+
+// }
+
+// // ek sat 2 for loops hai  c
 
 
-
-
-
-
-//      2      2   true         
-for(let i = 0; i <= 10; i++){
-     console.log('this is value', i);
-     i++
+for (let i = 0; i <= 5; i += 2) {
+     console.log(i);
 }
-
-/*
-0
-2
-4
-6
-8
-10
-*/
