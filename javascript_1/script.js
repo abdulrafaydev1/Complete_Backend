@@ -293,11 +293,18 @@ for(let i = 0; i < arr.length; i++){
      console.log(arr[i]);
      
 }
-*/
-//              0
+
 for (let i = 0; i < 5; i++) {
     if (i === 2) {
         continue;
+    }
+
+    console.log(i);
+}
+*/
+for (let i = 1; i <= 10; i++) {
+    if (i === 6) {
+        break;
     }
 
     console.log(i);
