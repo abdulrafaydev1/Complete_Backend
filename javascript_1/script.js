@@ -288,13 +288,11 @@ if (name) {
    console.log('fail');
 }
 */
-//                       5       
-for (let product = 1; product <= 5; product++){
-     console.log('product sahi chal raha hai');
+//              1
+for (let i = 1; i <= 5; i++){
+     console.log('this is product id', i);
 }
 
-// loop ek bar chala
-// loop doo bar chala
-// loop teen bar chala
-// loop chaar bar chala
-// loop 5 bar chala
+for (let i = 5; i >= 1; i--) {
+    console.log(i);
+}
