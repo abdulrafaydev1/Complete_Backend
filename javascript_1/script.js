@@ -371,3 +371,9 @@ for (let j = 1; j <= 3; j++) {
 
 // console.log(arr);
 
+let names = ["Ali", "Ahmed", "Rafay"];
+
+names.shift();
+names.unshift("Hamza");
+
+console.log(names);
