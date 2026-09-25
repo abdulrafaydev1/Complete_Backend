@@ -334,7 +334,7 @@ for (let j = 1; j <= 3; j++) {
 
 //              8 
 // for (let i = 0; i <= 10; i += 2) {
- 
+
 //      for(let j = 0; j <= 3; j += 2){
 //           console.log(`this is i value ${i} and this is j value ${j}`)
 //      }
@@ -378,8 +378,16 @@ for (let j = 1; j <= 3; j++) {
 
 // console.log(names);
 
-let numbers = [10, 20, 30, 40, 50];
+// let numbers = [10, 20, 30, 40, 50];
 
-for(let i = 0; i <= numbers.length; i++){
-     console.log(i)
+// for(let i = 0; i <= numbers.length; i++){
+//      console.log(i)
+// }
+
+let numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,10];
+
+for (let i = 0; i <= numbers.length; i++) {
+     if (numbers[i] % 2 === 0) {
+          console.log(numbers[i]);
+     }
 }
