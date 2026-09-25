@@ -116,9 +116,6 @@
    console.log(typeof NaN);       -> number
 */
 
-const { Suspense } = require("react");
-
-
 //!------Variables & Declarations interview questions------//
 
 /*
@@ -388,13 +385,12 @@ for (let j = 1; j <= 3; j++) {
 
 // let numbers = [10, 20, 30, 40, 50];
 
-// let sum = 0;
-// console.log(sum)
 
-// numbers.forEach((name, index) => {
-// console.log(name, index)
-// })     
+let user = {
+    name: "Rafay",
+    age: 20
+};
 
+delete user.age;
 
-let a = 12;
-console.log(a);
+console.log(user);
