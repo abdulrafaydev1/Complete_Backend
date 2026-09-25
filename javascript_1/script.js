@@ -333,9 +333,9 @@ for (let j = 1; j <= 3; j++) {
 // }
 
 //              8 
-for (let i = 0; i < 10; i += 2) {
+for (let i = 0; i <= 10; i += 2) {
  
-     for(let j = 0; i < 3; i += 1){
+     for(let j = 0; j < 3; j++){
           console.log(`this is i value ${i} and this is j value ${j}`)
      }
 }
@@ -355,6 +355,7 @@ for (let i = 0; i < 10; i += 2) {
 8
 8
 8
+
 */
 
 // for (let i = 1; i <= 3; i++) {
