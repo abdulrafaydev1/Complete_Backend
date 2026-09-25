@@ -386,12 +386,15 @@ for (let j = 1; j <= 3; j++) {
 //      console.log(i)
 // }
 
-let numbers = [10, 20, 30, 40, 50];
+// let numbers = [10, 20, 30, 40, 50];
 
-let sum = 0;
-console.log(sum)
+// let sum = 0;
+// console.log(sum)
 
-for(let i = 0; i <= numbers.length; i++){
-     console.log(sum + numbers[i]);
-}
-     
+// numbers.forEach((name, index) => {
+// console.log(name, index)
+// })     
+
+
+let a = 12;
+console.log(a);
