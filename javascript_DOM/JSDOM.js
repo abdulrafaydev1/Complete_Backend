@@ -12,17 +12,21 @@ form.addEventListener('submit', function (dets) {
     profile.classList.add("profile")
 
     let img = document.createElement("img")
-    img.setAttribute('src', 'https://static.vecteezy.com/system/resources/thumbnails/083/933/835/small/beautiful-and-inspiring-picture-detailing-a-bright-hot-air-balloon-over-river-pure-cozy-perfect-for-creatives-moods-stock-image-free-photo.jpeg')
+    img.setAttribute(
+        'src',
+        inputs[0].value
+    )
 
     let h3 = document.createElement('h3')
-    h3.textContent = 'Abdul Rafay'
+    h3.textContent = inputs[1].value
 
     let h5 = document.createElement('h5')
-    h5.textContent = 'Creative Coder'
+    h5.textContent = inputs[2].value
 
     let p = document.createElement('p')
-    p.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit   Provident natus beatae tempora iure, dignissimos eius numquam fuga'
+    p.textContent = inputs[3].value
 
+    
     profile.appendChild(img)
     card.appendChild(profile)
 
@@ -31,7 +35,7 @@ form.addEventListener('submit', function (dets) {
     card.appendChild(p)
 
     console.log(card);
-    
+
     container.appendChild(card)
 
 })
