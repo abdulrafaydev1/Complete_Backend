@@ -1,4 +1,2 @@
-let list = document.querySelector('#list')
-let item = document.createElement('li')
-item.textContent = 'rafay'
-list.append(item)
+ let btn = document.querySelector("#btn")
+ btn.removeAttribute('disabled')
