@@ -1,21 +1,124 @@
- * {
-     padding: 0%;
-     margin: 0%;
-     box-sizing: border-box;
- }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
- html,
- body {
-     width: 100%;
-     height: 100%;
- }
+body {
+    color: white;
+    min-height: 100vh;
+    padding: 40px;
+    background: #000;
+    font-family: Arial, sans-serif;
+}
 
- body {
-     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#todoForm {
+    width: 600px;
+    padding: 22px;
 
-     background-color: black;
-     color: white;
-     position: relative;
-     overflow: hidden;
-     padding: 30px 50px;
- }
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    background: #111;
+    border: 1px solid #2a2a2a;
+    border-radius: 14px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Todo Input */
+#todoInput {
+    flex: 1;
+    height: 48px;
+    padding: 0 15px;
+
+    border: 1px solid #333;
+    border-radius: 9px;
+    outline: none;
+
+    font-size: 15px;
+    color: #fff;
+    background: #1a1a1a;
+
+    transition: 0.25s ease;
+}
+
+#todoInput::placeholder {
+    color: #777;
+}
+
+#todoInput:focus {
+    border-color: #3b82f6;
+    background: #151515;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+
+/* Priority */
+#priority {
+    height: 48px;
+    padding: 0 35px 0 14px;
+
+    border: 1px solid #333;
+    border-radius: 9px;
+    outline: none;
+
+    font-size: 14px;
+    color: #fff;
+    background: #1a1a1a;
+
+    cursor: pointer;
+}
+
+#priority:focus {
+    border-color: #3b82f6;
+}
+
+
+/* Button */
+#todoForm button {
+    height: 48px;
+    padding: 0 22px;
+
+    border: none;
+    border-radius: 9px;
+
+    background: #2563eb;
+    color: #fff;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+#todoForm button:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+#todoForm button:active {
+    transform: translateY(0);
+}
+
+
+/* Mobile */
+@media (max-width: 650px) {
+    body {
+        padding: 20px;
+    }
+
+    #todoForm {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #todoInput,
+    #priority,
+    #todoForm button {
+        width: 100%;
+    }
+}
