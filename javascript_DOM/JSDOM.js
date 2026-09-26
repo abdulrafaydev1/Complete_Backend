@@ -6,5 +6,6 @@ btn.addEventListener("click", function () {
 })
 
 fileInput.addEventListener('change', function (dets) {
-    btn.textContent = dets.target.value
+    btn.textContent = dets.target.files[0].name
+    console.log(dets.target.files[0].name)
 })
