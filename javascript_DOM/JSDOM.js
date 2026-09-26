@@ -1,3 +1,5 @@
-let link = document.querySelector('#ul')
-let li = document.querySelector('li')
-li.remove()
+let p = document.querySelectorAll('p')
+p.forEach(function(val){
+    val.classList.add('highlight')
+})
+
