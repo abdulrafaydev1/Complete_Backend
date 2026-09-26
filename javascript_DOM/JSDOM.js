@@ -1,3 +1,3 @@
-let box = document.getElementById("box");
-
-box.innerHTML = "<h3> <b>Hello</b> Rafay</h3>";
+let link = document.querySelector('#link')
+link.append(link.getAttribute('href')).append()
+console.log(link.getAttribute('href'));
