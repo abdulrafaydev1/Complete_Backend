@@ -14,3 +14,12 @@ body{
     background: #fff;
     font-size: 30px;
 }
+
+.h1{
+    color: black;
+    background-color: white;
+}
+.h2{
+    color: white;
+    background-color: black;
+}
