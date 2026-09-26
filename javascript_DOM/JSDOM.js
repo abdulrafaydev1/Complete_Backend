@@ -25,6 +25,11 @@ form.addEventListener('submit', function (dets) {
     profile.appendChild(img)
     card.appendChild(profile)
 
-    console.log(card)
+    card.appendChild(h3)
+    card.appendChild(h5)
+    card.appendChild(p)
+
+    console.log(card);
+    
 
 })
