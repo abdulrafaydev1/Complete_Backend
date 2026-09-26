@@ -1,4 +1,3 @@
 let box = document.getElementById("box");
-box.append(box.textContent)
-console.log(box.innerText);
-console.log(box.textContent);
+
+box.innerHTML = "<h3> <b>Hello</b> Rafay</h3>";
