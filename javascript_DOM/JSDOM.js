@@ -1,5 +1,6 @@
 let form = document.querySelector('form')
 let inputs = document.querySelectorAll('input')
+let container = document.querySelector('.container')
 
 form.addEventListener('submit', function (dets) {
     dets.preventDefault()
