@@ -1,5 +1,8 @@
 let h1 = document.querySelector('h1')
-h1.addEventListener('click', function(val){
+
+function dblclick() {
     h1.style.color = 'black'
     h1.style.backgroundColor = 'white'
-})
+}
+
+h1.addEventListener('dblclick', dblclick)
