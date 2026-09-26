@@ -1,4 +1,2 @@
-let src = document.querySelector('img')
-let imgSrc = src.getAttribute('src')
-console.log(imgSrc);
-
+let h1 = document.getElementById('title')
+console.log(h1);
