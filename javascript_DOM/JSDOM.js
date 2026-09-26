@@ -32,5 +32,6 @@ form.addEventListener('submit', function (dets) {
 
     console.log(card);
     
+    container.appendChild(card)
 
 })
