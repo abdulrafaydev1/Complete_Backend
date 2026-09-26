@@ -124,7 +124,10 @@ body {
 }
 
 
-.todoCard{
+.todoCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #111111;
     border-radius: 10px;
     padding: 30px;
@@ -132,9 +135,34 @@ body {
     width: 37.5rem;
 }
 
-.select{
+.todoCard h3 {
+    cursor: pointer;
+}
+
+.lt{
+    text-decoration: line-through;
+}
+
+.select {
     margin-left: 20px;
     border-radius: 10px;
     padding: 8px 12px;
     background-color: #353535;
+}
+
+.btn {
+    height: 48px;
+    padding: 0 22px;
+
+    border: none;
+    border-radius: 9px;
+
+    background: #2563eb;
+    color: #fff;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.25s ease;
 }

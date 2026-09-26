@@ -16,9 +16,14 @@ form.addEventListener('submit', function(dets){
     let span = document.createElement('span')
     span.classList.add('select')
     span.textContent = priority.value
+
+    let btn = document.createElement('button')
+    btn.classList.add('btn')
+    btn.textContent = 'Delete ToDo'
     
     h3.appendChild(span)
     todoCard.appendChild(h3)
+    todoCard.appendChild(btn)
 
     container.appendChild(todoCard)
 
