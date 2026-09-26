@@ -1,5 +1,9 @@
-let p = document.querySelectorAll('p')
-p.forEach(function(val){
-    val.classList.add('highlight')
+let h1 = document.querySelector('h1')
+h1.addEventListener('click', function(val){
+    h1.style.color = 'black'
+    h1.style.backgroundColor = 'white'
 })
-
+h1.addEventListener('click', function(val){
+    h1.style.color = 'white'
+    h1.style.backgroundColor = 'black'
+})
