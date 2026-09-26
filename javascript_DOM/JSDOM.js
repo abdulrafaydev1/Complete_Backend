@@ -1,5 +1,3 @@
-let div = document.querySelector('#div')
-let img = document.createElement('img')
-div.prepend(img)
-img.setAttribute('placeholder', 'rafay')
-img.setAttribute('src', 'https://static.vecteezy.com/system/resources/thumbnails/083/933/835/small/beautiful-and-inspiring-picture-detailing-a-bright-hot-air-balloon-over-river-pure-cozy-perfect-for-creatives-moods-stock-image-free-photo.jpeg')
+let link = document.querySelector('#ul')
+let li = document.querySelector('li')
+li.remove()
