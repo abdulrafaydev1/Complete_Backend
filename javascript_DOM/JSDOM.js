@@ -1,4 +1,4 @@
-let input = document.querySelector('input')
-input.addEventListener('input', function (e) {
-    console.log(e.data);
+let input = document.querySelector("input")
+input.addEventListener('input', function(chacha){
+    console.log(chacha.data);
 })
