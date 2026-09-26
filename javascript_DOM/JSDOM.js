@@ -1,5 +1,4 @@
 let box = document.getElementById("box");
-
-console.log(box.innerText); // hello world
-console.log(box.textContent); // hello world
-console.log(box.innerHTML); // hello span world span
+box.append(box.textContent)
+console.log(box.innerText);
+console.log(box.textContent);
