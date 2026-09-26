@@ -6,3 +6,4 @@ function dblclick() {
 }
 
 h1.addEventListener('dblclick', dblclick)
+h1.removeEventListener('dblclick', dblclick)
