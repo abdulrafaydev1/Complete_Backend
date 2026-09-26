@@ -1,2 +1,2 @@
-let h1 = document.querySelector('title')
+let h1 = document.querySelectorAll('#title')
 console.log(h1);
