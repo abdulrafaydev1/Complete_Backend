@@ -4,8 +4,13 @@ let inputs = document.querySelectorAll('input')
 form.addEventListener('submit', function (dets) {
     dets.preventDefault()
 
-    inputs.forEach(function(){
-        console.log(dets.submitter.value)
-    })
-   
+    let card = document.createElement("div")
+    card.classList.add("card")
+
+    let profile = document.createElement("div")
+    profile.classList.add("profile")
+
+    card.appendChild(profile)
+    console.log(card)
+
 })
