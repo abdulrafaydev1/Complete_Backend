@@ -1,2 +1,5 @@
-let h1 = document.querySelectorAll('#title')
-console.log(h1);
+let box = document.getElementById("box");
+
+console.log(box.innerText); // hello world
+console.log(box.textContent); // hello world
+console.log(box.innerHTML); // hello span world span
