@@ -1,2 +1,2 @@
-let h1 = document.getElementById('title')
-console.log(h1);
+let box = document.querySelector('.box')
+console.log(box.te);
