@@ -5,6 +5,7 @@
 }
 
 body {
+    user-select: none;
     color: white;
     min-height: 100vh;
     padding: 40px;
