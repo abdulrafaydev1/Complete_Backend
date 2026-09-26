@@ -1,11 +1,10 @@
-let h1 = document.querySelector('h1')
+let btn = document.querySelector('#btn')
+let fileInput = document.querySelector('#fileInput')
 
-window.addEventListener('keydown', function (dets) {
-    if (dets.key !== " ") {
-        h1.textContent = dets.key
-    } else {
-          h1.textContent = 'Space'
-    }
-        
+btn.addEventListener("click", function () {
+    fileInput.click()
+})
 
+fileInput.addEventListener('change', function (dets) {
+    btn.textContent = dets.target.value
 })
