@@ -9,6 +9,6 @@ input.addEventListener('input', function (dets) {
     if (CharactersLeft < 0) {
         span.style.color = 'red'
     } else {
-        span.textContent = left
+        span.style.color = 'white'
     }
 })
