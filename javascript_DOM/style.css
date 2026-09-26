@@ -167,3 +167,8 @@ body {
     cursor: pointer;
     transition: 0.25s ease;
 }
+
+h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
