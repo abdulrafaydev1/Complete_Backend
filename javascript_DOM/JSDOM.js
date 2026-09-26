@@ -26,7 +26,7 @@ form.addEventListener('submit', function (dets) {
     let p = document.createElement('p')
     p.textContent = inputs[3].value
 
-    
+
     profile.appendChild(img)
     card.appendChild(profile)
 
@@ -37,5 +37,11 @@ form.addEventListener('submit', function (dets) {
     console.log(card);
 
     container.appendChild(card)
+
+    inputs.forEach(function (inp) {
+        if (inp.type !== "submit") {
+            inp.value = "";
+        }
+    })
 
 })
