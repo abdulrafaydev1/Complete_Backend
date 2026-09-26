@@ -1,11 +1,5 @@
-let btn = document.querySelector('#btn')
-let fileInput = document.querySelector('#fileInput')
+let form = document.querySelector('form')
 
-btn.addEventListener('click', function () {
-    fileInput.click()
-})
+form.addEventListener('submit', function(dets){
 
-fileInput.addEventListener('change', function(e){
-    btn.textContent = e.target.files[0].name
-    console.log(e)
 })
